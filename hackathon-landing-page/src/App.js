@@ -6,6 +6,7 @@ import Reviews from './components/Reviews/Reviews';
 import Courses from './components/Courses';
 import Terms from './components/Terms';
 import HighlightOffers from './components/HighlightOffers';
+import Questions from './components/Questions/Questions';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <HighlightOffers></HighlightOffers>
         <Reviews />
         <Job />
+        <Questions/>
         <Footer />
 
       </div>
