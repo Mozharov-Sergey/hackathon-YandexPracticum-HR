@@ -1,0 +1,12 @@
+.test__title {
+  max-width: 560px;
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #232323;
+  margin: 39.11px 0 25px 0;
+}
