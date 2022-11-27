@@ -9,7 +9,7 @@ const Job = () => {
           <p className='job__text'>Не нашли идеальное предложение?</p>
           <p className='job__text'>Посмотрите другие вакансии в основной команде</p>
         </div>
-        <a href='https://practicum.yandex.ru/interface-designer/#CareerCenter' target="blank">
+        <a className='job__btn' href='https://practicum.yandex.ru/interface-designer/#CareerCenter' target="blank">
           <Button text='Смотреть вакансии' />
         </a>        
       </div>
