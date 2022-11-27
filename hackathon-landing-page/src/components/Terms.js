@@ -1,3 +1,6 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+
 export default function Terms() {
   const termsCardsData = [
     {
@@ -31,16 +34,27 @@ export default function Terms() {
           В роли наставника и ревьюера
           <br /> вы сможете
         </h2>
-        <div className="terms__cards">
+
+        <Swiper
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          className="reviews__swiper"
+          slidesPerView={4}
+          spaceBetween={0}
+        >
           {termsCardsData.map((item) => {
             return (
-              <div className="terms__card" key={item.title}>
-                <h3 className="terms__card-title">{item.title}</h3>
-                <p className="terms__card-description">{item.description}</p>
-              </div>
+              <SwiperSlide key={item.title}>
+                <div className="terms__card" >
+                  <h3 className="terms__card-title">{item.title}</h3>
+                  <p className="terms__card-description">{item.description}</p>
+                </div>
+              </SwiperSlide>
             );
           })}
-        </div>
+        </Swiper>
         <button className="terms__button-accept">Мне подходит!</button>
       </section>
     </>
