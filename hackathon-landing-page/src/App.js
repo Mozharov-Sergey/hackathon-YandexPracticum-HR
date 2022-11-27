@@ -10,7 +10,6 @@ function App() {
       <div className="page">
         {/* <Header></Header> */}
         <Courses></Courses>
-        {/* <Terms></Terms> */}
         <HighlightOffers></HighlightOffers>
         <Footer></Footer>
       </div>
