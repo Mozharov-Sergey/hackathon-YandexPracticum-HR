@@ -1,4 +1,11 @@
 @import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts/Yandex_Sans/stylesheet.css);
 
 @import url(blocks/page/page.css);
 @import url(blocks/root/root.css);
+
+@import url(blocks/courses/courses.css);
+@import url(blocks/courses/___cards-container/courses___cards-container.css);
+@import url(blocks/courses/__card/courses__card.css);
+@import url(blocks/courses/__main-text/courses__main-text.css);
+@import url(blocks/courses/__title/courses__titile.css);
