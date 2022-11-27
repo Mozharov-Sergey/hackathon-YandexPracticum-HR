@@ -1,8 +1,9 @@
-.courses__main-text {
+.courses__card-title {
   font-family: 'YS Display';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 30px;
   line-height: 125%;
-  padding-bottom: 50px;
+  margin: 0;
+  padding: 0;
 }

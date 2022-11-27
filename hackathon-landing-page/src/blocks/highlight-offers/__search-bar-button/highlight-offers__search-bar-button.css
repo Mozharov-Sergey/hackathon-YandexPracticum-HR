@@ -1,0 +1,20 @@
+.highlight-offers__search-bar-button {
+  width: 360px;
+  height: 54px;
+  background-color: #b9cce1;
+  border-radius: 20px;
+  border: none;
+  padding: 0;
+  margin: 0 40px 0 0;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #515151;
+}
+
+.highlight-offers__search-bar-button:last-child {
+  margin: 0;
+}
