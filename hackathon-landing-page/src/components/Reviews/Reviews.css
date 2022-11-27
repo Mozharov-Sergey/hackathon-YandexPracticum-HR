@@ -2,6 +2,10 @@
   padding: 120px 0 120px 140px;
 }
 
+.reviews__swiper {
+  max-width: 1300px;
+}
+
 .reviews__title {
   font-family: 'YS Display';
   font-style: normal;

@@ -75,15 +75,14 @@ const Reviews = () => {
           clickable: true,
         }}
         navigation={true}
-        className='mySwiper'
+        className='reviews__swiper'
         slidesPerView={3.5}
         spaceBetween={60}
     >
         {reviewsData.map((card) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={card.id}>
                 <CardReview
-                key={card.id}
                 card={card}
               />
               </SwiperSlide>              
