@@ -1,0 +1,8 @@
+.instructions__subtitle {
+  grid-area: subtitle;
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 125%;
+}

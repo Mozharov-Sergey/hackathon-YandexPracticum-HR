@@ -1,0 +1,7 @@
+.todo-list {
+  max-width: 1160px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }

@@ -1,0 +1,4 @@
+.instructions__tasks {
+  grid-area: text;
+  padding-inline-start: 26px;
+}

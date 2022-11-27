@@ -1,0 +1,6 @@
+.instructions__image {
+  grid-area: image;
+  max-width: 560px;
+  max-height: 323px;
+  background-repeat: no-repeat;
+}
