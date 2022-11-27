@@ -15,6 +15,10 @@
   max-width: 925px;
 }
 
+.job__btn {
+  text-decoration: none;
+}
+
 .job__text {
   font-family: 'YS Text';
   font-style: normal;
