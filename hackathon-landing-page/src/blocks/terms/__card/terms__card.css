@@ -1,0 +1,8 @@
+.terms__card {
+width: 260px;
+height: 280px;
+background: #E6E2E2;
+border-radius: 20px;
+padding: 40px 10px 10px;
+box-sizing: border-box;
+}

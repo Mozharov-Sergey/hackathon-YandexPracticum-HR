@@ -1,11 +1,9 @@
-.page {
-  max-width: 1440px;
+.terms {
   width: 100%;
-  min-height: 100vh;
+  max-width: 1160px;
+  padding: 63px 0 0;
   margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
