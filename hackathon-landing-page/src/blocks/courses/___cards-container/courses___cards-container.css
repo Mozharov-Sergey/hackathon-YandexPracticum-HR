@@ -1,0 +1,8 @@
+.courses__cards-container {
+  display: grid;
+  box-sizing: border-box;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+}

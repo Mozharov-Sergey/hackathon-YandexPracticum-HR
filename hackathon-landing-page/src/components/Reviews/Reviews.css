@@ -1,0 +1,32 @@
+.reviews {
+  padding: 120px 0 120px 140px;
+}
+
+.reviews__swiper {
+  max-width: 1300px;
+}
+
+.reviews__title {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: #000000;
+  margin: 0;
+}
+
+.reviews__subtitle {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.reviews__list {
+  margin-top: 50px;
+}

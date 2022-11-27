@@ -1,7 +1,39 @@
 @import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts/Yandex_Sans/stylesheet.css);
 
 @import url(blocks/page/page.css);
 @import url(blocks/root/root.css);
 
-
 @import url(blocks/header/header.css);
+
+@import url(blocks/courses/courses.css);
+@import url(blocks/courses/___cards-container/courses___cards-container.css);
+@import url(blocks/courses/__card/courses__card.css);
+@import url(blocks/courses/__main-text/courses__main-text.css);
+@import url(blocks/courses/__title/courses__titile.css);
+@import url(blocks/courses/__card-image/courses__card-image.css);
+@import url(blocks/courses/__card-title/courses__card-title.css);
+@import url(blocks/courses/__card-substring/courses__card-substring.css);
+@import url(blocks/courses/__card-title/_summary/courses__card-title_summary.css);
+@import url(blocks/courses/__card/_summary/courses__card_summary.css);
+@import url(blocks/courses/__card-button/courses__card-button.css);
+
+@import url(blocks/terms/terms.css);
+@import url(blocks/terms/__card-description/terms__card-description.css);
+@import url(blocks/terms/__card-title/terms__card-title.css);
+@import url(blocks/terms/__card/terms__card.css);
+@import url(blocks/terms/__title/terms__title.css);
+@import url(blocks/terms/__cards/terms__cards.css);
+@import url(blocks/terms/__button-accept/terms__button-accept.css);
+
+@import url(blocks/highlight-offers/highlight-offers.css);
+@import url(blocks/highlight-offers/__offer-conditions/highlight-offers__offer-conditions.css);
+@import url(blocks/highlight-offers/__offer-name/highlight-offers__offer-name.css);
+@import url(blocks/highlight-offers/__offer-position/highlight-offers__offer-position.css);
+@import url(blocks/highlight-offers/__offer/highlight-offers__offer.css);
+@import url(blocks/highlight-offers/__offers-container/highlight-offers__offers-container.css);
+@import url(blocks/highlight-offers/__search-bar-button/highlight-offers__search-bar-button.css);
+@import url(blocks/highlight-offers/__search-bar-select/highlight-offers__search-bar-select.css);
+@import url(blocks/highlight-offers/__search-bar/highlight-offers__search-bar.css);
+@import url(blocks/highlight-offers/__title/highlight-offers__title.css);
+@import url(blocks/highlight-offers/__search-bar-select-option/highlight-offers__search-bar-select-option.css);
