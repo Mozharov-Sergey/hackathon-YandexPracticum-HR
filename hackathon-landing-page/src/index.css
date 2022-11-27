@@ -6,6 +6,25 @@
 
 @import url(blocks/header/header.css);
 
+@import url(blocks/instructions/instructions.css);
+@import url(blocks/instructions/__title/instructions__title.css);
+@import url(blocks/instructions/__title/_mentors/instructions__title_mentors.css);
+@import url(blocks/instructions/__title/_reviewers/instructions__title_reviewers.css);
+@import url(blocks/instructions/__subtitle/instructions__subtitle.css);
+@import url(blocks/instructions/__reviewers/instructions__reviewers.css);
+@import url(blocks/instructions/__mentors/instructions__mentors.css);
+@import url(blocks/instructions/__button/__button.css);
+@import url(blocks/instructions/__image/instructions__image.css);
+@import url(blocks/instructions/__tasks/instructions__tasks.css);
+@import url(blocks/instructions/__task/instructions__task.css);
+
+@import url(blocks/todo-list/todo-list.css);
+@import url(blocks/todo-list/__text/todo-list__text.css);
+@import url(blocks/todo-list/__arrow-first/todo-list__arrow-first.css);
+@import url(blocks/todo-list/__arrow-secong/todo-list__arrow-secong.css);
+@import url(blocks/todo-list/__text-first/todo-list__text-first.css);
+@import url(blocks/todo-list/__text-second/todo-list__text-second.css);
+
 @import url(blocks/courses/courses.css);
 @import url(blocks/courses/___cards-container/courses___cards-container.css);
 @import url(blocks/courses/__card/courses__card.css);
@@ -37,3 +56,4 @@
 @import url(blocks/highlight-offers/__search-bar/highlight-offers__search-bar.css);
 @import url(blocks/highlight-offers/__title/highlight-offers__title.css);
 @import url(blocks/highlight-offers/__search-bar-select-option/highlight-offers__search-bar-select-option.css);
+

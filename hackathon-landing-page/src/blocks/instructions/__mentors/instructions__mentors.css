@@ -1,0 +1,10 @@
+.instructions__mentors {
+  display: grid;
+  margin-top: 50px;
+  grid-template-areas:
+        'subtitle image'
+        'text image'
+        'button image';
+        row-gap: 25px;
+        column-gap: 40px;
+}
