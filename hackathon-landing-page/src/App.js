@@ -7,6 +7,7 @@ import Courses from './components/Courses';
 import Terms from './components/Terms';
 import HighlightOffers from './components/HighlightOffers';
 import Test from './components/Test'
+import Questions from './components/Questions/Questions';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <HighlightOffers></HighlightOffers>
         <Reviews />
         <Job />
+        <Questions/>
         <Footer />
 
       </div>
