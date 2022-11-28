@@ -1,0 +1,16 @@
+.intro__subtitle {
+  max-width: 590px;
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(10px + 20 * (100vw / 1440));
+  line-height: 120%;
+  text-align: center;
+  margin: 0 14.5vw 196px;
+}
+
+@media screen and (min-width: 1439px) {
+  .intro__subtitle {
+    font-size: 30px;
+  }
+}

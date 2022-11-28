@@ -1,0 +1,13 @@
+.intro {
+  background-image: url(../../images/intro/intro.jpg);
+  max-width: 1160px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  border-radius: 25px;
+}
