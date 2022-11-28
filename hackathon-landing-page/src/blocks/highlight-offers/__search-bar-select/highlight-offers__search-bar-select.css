@@ -11,4 +11,9 @@
   line-height: 29px;
   text-align: center;
   color: #515151;
+  margin-right: 40px;
+}
+
+.highlight-offers__search-bar-select:last-child {
+  margin-right: 0;
 }
