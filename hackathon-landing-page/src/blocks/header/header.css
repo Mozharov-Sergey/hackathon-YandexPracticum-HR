@@ -39,18 +39,27 @@
   justify-content: flex-end;
 }
 
+
+
 @media screen and (min-width:1440px){
   .header__links {
     flex-wrap: nowrap;
   }
 }
 
-.header_link {
+.header__link {
   text-decoration: none;
   padding: 0 1.74vw;
   color: #000000;
 }
 
+@media screen and (min-width: 1439px){
+  .header__link {
+    flex-wrap: nowrap;
+    padding: 25px;
+  }
+}
+/* 
 .header_button {
   background-color: #373737;
   color: white;
@@ -59,7 +68,7 @@
   padding: 11px 20px;
   border: none;
   min-width: 139px;
-}
+} */
 
 @media screen and(max-width: 587px) {
 

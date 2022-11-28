@@ -1,17 +1,26 @@
 .intro__subtitle {
-  max-width: 474px;
+  max-width: 451px;
   font-family: 'YS Display';
   font-style: normal;
   font-weight: 500;
-  font-size: calc(10px + 20 * (100vw / 1440));
+  font-size: calc(10px + 14 * (100vw / 1440));
   line-height: 120%;
   text-align: center;
-  margin: 0 14.5vw 196px;
+  margin: 0;
 }
 
 @media screen and (min-width: 1439px) {
   .intro__subtitle {
-    font-size: 30px;
-    margin: 0 200px 196px;
+    font-size: 24px;
+    margin: 0;
   }
+}
+
+.intro__text-blur {
+  max-width: 650px;
+  padding: 15px 55px 20px;
+  backdrop-filter: blur(7.5px);
+  border-radius: 25px;
+  margin-bottom: 154px;
+  background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264), rgba(255, 255, 255, 0.066) 100%);
 }
