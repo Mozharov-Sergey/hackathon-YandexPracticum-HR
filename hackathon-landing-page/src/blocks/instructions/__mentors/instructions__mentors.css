@@ -1,5 +1,6 @@
 .instructions__mentors {
   display: grid;
+  grid-template-columns: minmax(250px, 560px) minmax(358px, 561px);
   margin-top: 50px;
   grid-template-areas:
         'subtitle image'

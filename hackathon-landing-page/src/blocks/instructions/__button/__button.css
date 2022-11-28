@@ -12,4 +12,9 @@
   max-width: 193px;
   color: white;
   border-radius: 120px;
+  max-height: 61px;
+}
+
+.instructions__button_reviewers {
+  margin-bottom: 23px;
 }
