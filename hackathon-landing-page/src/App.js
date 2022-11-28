@@ -6,8 +6,8 @@ import Reviews from './components/Reviews/Reviews';
 import Courses from './components/Courses';
 import Terms from './components/Terms';
 import HighlightOffers from './components/HighlightOffers';
+import Test from './components/Test'
 import Questions from './components/Questions/Questions';
-
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <div className="page">
         <Header></Header>
         <Instructions></Instructions>
+        <Test></Test>
         <Courses></Courses>
         <Terms></Terms>
         <HighlightOffers></HighlightOffers>

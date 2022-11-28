@@ -1,0 +1,8 @@
+.test__image-cat {
+  width: 310px;
+  height: 150px;
+  border-radius: 0 0px 70px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
