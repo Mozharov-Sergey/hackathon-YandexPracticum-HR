@@ -45,6 +45,7 @@
 @import url(blocks/courses/__card-title/_summary/courses__card-title_summary.css);
 @import url(blocks/courses/__card/_summary/courses__card_summary.css);
 @import url(blocks/courses/__card-button/courses__card-button.css);
+@import url(blocks/courses/__card-substring/_hover/courses__card-substring_hover.css);
 
 @import url(blocks/terms/terms.css);
 @import url(blocks/terms/__card-description/terms__card-description.css);
@@ -53,6 +54,7 @@
 @import url(blocks/terms/__title/terms__title.css);
 @import url(blocks/terms/__cards/terms__cards.css);
 @import url(blocks/terms/__button-accept/terms__button-accept.css);
+@import url(blocks/terms/__card-image/terms__card-image.css);
 
 @import url(blocks/highlight-offers/highlight-offers.css);
 @import url(blocks/highlight-offers/__offer-conditions/highlight-offers__offer-conditions.css);
@@ -65,4 +67,6 @@
 @import url(blocks/highlight-offers/__search-bar/highlight-offers__search-bar.css);
 @import url(blocks/highlight-offers/__title/highlight-offers__title.css);
 @import url(blocks/highlight-offers/__search-bar-select-option/highlight-offers__search-bar-select-option.css);
+@import url(blocks/highlight-offers/__offer/_closed/highlight-offers__offer_closed.css);
+@import url(blocks/highlight-offers/__button-show-more/highlight-offers__button-show-more.css);
 

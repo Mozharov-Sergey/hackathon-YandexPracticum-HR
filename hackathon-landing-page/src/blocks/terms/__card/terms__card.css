@@ -1,8 +1,14 @@
 .terms__card {
-width: 260px;
-height: 280px;
-background: #E6E2E2;
-border-radius: 20px;
-padding: 40px 10px 10px;
-box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 360px;
+  height: 485px;
+  background: #ffffff;
+  box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px 0;
+  box-sizing: border-box;
 }
