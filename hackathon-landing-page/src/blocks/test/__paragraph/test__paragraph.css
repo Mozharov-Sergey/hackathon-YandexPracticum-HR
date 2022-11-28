@@ -3,7 +3,7 @@
   font-family: 'YS Text';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: calc(13px + 7 *(100vw / 1440));
   line-height: 130%;
   text-align: center;
   color: #232323;
