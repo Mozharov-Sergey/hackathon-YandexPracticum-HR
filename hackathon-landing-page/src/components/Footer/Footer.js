@@ -25,8 +25,8 @@ const Footer = () => {
       <nav className='footer__menu'>
         <ul className='footer__list'>
           <li className='footer__list-item'><a className='footer__menu-link' href="#tasks">Задачи</a></li>
-          <li className='footer__list-item'><a className='footer__menu-link' href="#faculties">Факультеты</a></li>
-          <li className='footer__list-item'><a className='footer__menu-link' href="#terms">Условия</a></li>
+          <li className='footer__list-item'><a className='footer__menu-link' href="#courses">Факультеты</a></li>
+          <li className='footer__list-item'><a className='footer__menu-link' href="#offers">Условия</a></li>
           <li className='footer__list-item'><a className='footer__menu-link' href="#jobs">Вакансии</a></li>
           <li className='footer__list-item'><a className='footer__menu-link' href="#reviews">Отзывы</a></li>
         </ul>
