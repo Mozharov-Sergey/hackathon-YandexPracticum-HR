@@ -22,8 +22,6 @@
 @import url(blocks/todo-list/__text/todo-list__text.css);
 @import url(blocks/todo-list/__arrow-first/todo-list__arrow-first.css);
 @import url(blocks/todo-list/__arrow-secong/todo-list__arrow-secong.css);
-@import url(blocks/todo-list/__text-first/todo-list__text-first.css);
-@import url(blocks/todo-list/__text-second/todo-list__text-second.css);
 
 @import url(blocks/test/test.css);
 @import url(blocks/test/__button/test__button.css);
@@ -32,7 +30,6 @@
 @import url(blocks/test/__title/test__title.css);
 @import url(blocks/test/__image-lines/test__image-lines.css);
 
-@import url(blocks/courses/courses.css);
 @import url(blocks/courses/___cards-container/courses___cards-container.css);
 @import url(blocks/courses/__card/courses__card.css);
 @import url(blocks/courses/__main-text/courses__main-text.css);
