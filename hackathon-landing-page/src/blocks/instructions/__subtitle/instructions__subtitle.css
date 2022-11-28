@@ -6,3 +6,9 @@
   font-size: calc(20px + 10 *(100vw / 1400));
   line-height: 125%;
 }
+
+@media screen and (min-width:1440px){
+  .instructions__subtitle {
+    font-size: 30px;
+  }
+}

@@ -12,3 +12,10 @@
   box-sizing: border-box;
   padding: 0 8.5vw;
 }
+
+ @media screen and (min-width: 1440px) {
+  .test {
+    box-sizing: content-box;
+    padding: 0 100px;
+  }
+ }

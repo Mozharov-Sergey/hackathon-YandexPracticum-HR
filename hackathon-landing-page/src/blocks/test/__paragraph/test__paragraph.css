@@ -9,3 +9,10 @@
   color: #232323;
   margin: 0 0 50px 0;
 }
+
+
+@media screen and (min-width: 1440px){
+  .test__paragraph {
+    font-size: 20px;
+  }
+}
