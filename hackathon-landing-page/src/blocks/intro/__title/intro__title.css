@@ -1,0 +1,16 @@
+.intro__title {
+  max-width: 760px;
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(30px + 40 * (100vw / 1440));
+  line-height: 100%;
+  text-align: center;
+  margin: 80px 14.5vw 25px;
+}
+
+@media screen and (min-width: 1439px) {
+  .intro__title {
+    font-size: 70px;
+  }
+}

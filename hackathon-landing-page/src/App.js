@@ -8,12 +8,14 @@ import Terms from './components/Terms';
 import HighlightOffers from './components/HighlightOffers';
 import Test from './components/Test'
 import Questions from './components/Questions/Questions';
+import Intro from './components/Intro'
 
 function App() {
   return (
     <div className="root">
       <div className="page">
         <Header></Header>
+        <Intro></Intro>
         <Instructions></Instructions>
         <Test></Test>
         <Courses></Courses>
