@@ -1,5 +1,6 @@
 import lines from '../images/test/lines.png';
 import cat from '../images/test/cat.png';
+import Button from './Button/Button';
 
 export default function Test() {
   return(
@@ -9,7 +10,7 @@ export default function Test() {
         <h4 className="test__title">Прирожденный наставник или истинный ревьюер?</h4>
         <p className='test__paragraph'>Пройдите короткий тест под руководством нашего hr-специалиста:
           он поможет определиться с наиболее подходящей для вас ролью</p>
-        <button className="test__button">Пройти тест</button>
+        <Button text='Пройти тест' width='185px'/>  
       <img className="test__image-cat"src={cat} alt=""></img>
     </section>
     </>

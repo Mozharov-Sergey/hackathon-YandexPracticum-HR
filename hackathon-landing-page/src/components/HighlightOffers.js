@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Button from './Button/Button';
 
 export default function HighlightOffers() {
   const offersData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // Потом тут будут данные карточек с вакансиями
@@ -61,8 +62,7 @@ export default function HighlightOffers() {
           }
         })}
       </div>
-      <button className="highlight-offers__button-show-more" onClick={handleClickShowVacanciewButton}>Показать еще</button>
-      
+      <Button text='Показать еще' width='185px' handleClick={handleClickShowVacanciewButton}/>       
     </section>
   );
 }

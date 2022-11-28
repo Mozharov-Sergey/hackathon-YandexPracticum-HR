@@ -1,4 +1,5 @@
 import headerLogo from '../images/headerLogo.svg';
+import Button from './Button/Button';
 
 export default function Header() {
   return(
@@ -15,7 +16,7 @@ export default function Header() {
         <li><a href="#footer" className="header_link">Контакты</a></li>
       </ul>
       </nav>
-      <button className="header_button">Начать учить</button>
+      <Button text='Начать учить' width='140px'/>
       </header>
   )
 }
