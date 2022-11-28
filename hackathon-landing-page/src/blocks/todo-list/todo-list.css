@@ -2,12 +2,9 @@
   max-width: 1160px;
   margin-top: 40px;
   display: grid;
-  /* justify-content: space-between;
-  align-items: center; */
   max-width: 1160px;
-  margin-top: 40px;
+  margin-top: 50px;
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: minmax(200px, 273px) 111px minmax(261px, 379px) 52px minmax(248px, 3258px);
   align-items: center;
   justify-items: stretch;
