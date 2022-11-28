@@ -1,9 +1,9 @@
 import './Button.css'
 
-const Button = ({text, height }) => {
+const Button = ({text }) => {
   
 return (
-    <button target='blank' className='button' style={{ height: height }}>
+    <button target='blank' className='button'>
       {text}
     </button>
   )

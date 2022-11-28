@@ -90,6 +90,10 @@
   margin-right: 0;
 }
 
+.footer__list-item {
+  margin-bottom: 10px;
+}
+
 .footer__menu-link {
   font-family: 'YS Text';
   font-style: normal;

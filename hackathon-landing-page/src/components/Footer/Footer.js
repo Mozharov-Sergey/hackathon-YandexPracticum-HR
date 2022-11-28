@@ -29,7 +29,6 @@ const Footer = () => {
           <li className='footer__list-item'><a className='footer__menu-link' href="#terms">Условия</a></li>
           <li className='footer__list-item'><a className='footer__menu-link' href="#jobs">Вакансии</a></li>
           <li className='footer__list-item'><a className='footer__menu-link' href="#reviews">Отзывы</a></li>
-          <li className='footer__list-item'><a className='footer__menu-link' href="#contacts">Контакты</a></li>
         </ul>
         <ul className='footer__list'>
           <li className='footer__list-item'><a className='footer__menu-link' href="https://yandex.ru/support/praktikum/feedback.html" target='blank'>Помощь</a></li>
