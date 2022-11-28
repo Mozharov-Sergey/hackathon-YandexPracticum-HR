@@ -46,6 +46,7 @@
 @import url(blocks/courses/__card/_summary/courses__card_summary.css);
 @import url(blocks/courses/__card-button/courses__card-button.css);
 @import url(blocks/courses/__card-substring/_hover/courses__card-substring_hover.css);
+@import url(blocks/courses/courses.css);
 
 @import url(blocks/terms/terms.css);
 @import url(blocks/terms/__card-description/terms__card-description.css);
