@@ -47,8 +47,7 @@ export default function Terms() {
     <>
       <section className="terms" id="terms">
         <h2 className="terms__title">
-          В роли наставника и ревьюера
-          <br /> вы сможете
+        В Практикуме вы сможете
         </h2>
 
         <Swiper
