@@ -6,7 +6,7 @@ const Button = ({text, width, handleClick }) => {
   }
 
 return (
-    <button target='blank' className='button' style={{ width: width }} onclick={handleSubmit}>
+    <button target='blank' className='button' style={{ width: width }} onClick={handleSubmit}>
       {text}
     </button>
   )

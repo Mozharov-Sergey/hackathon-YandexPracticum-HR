@@ -5,6 +5,7 @@ import analitics from '../images/coursesIcons/analitics.png';
 import management from '../images/coursesIcons/management.png';
 import marketing from '../images/coursesIcons/marketing.png';
 import CoursesCard from './CoursesCard';
+import Button from './Button/Button';
 
 const cardsData = [
   {
@@ -56,7 +57,7 @@ export default function Courses() {
 
           <div className="courses__card courses__card_summary">
             <h3 className="courses__card-title courses__card-title_summary">Все курсы</h3>
-            <button className="courses__card-button">Смотреть →</button>
+            <Button text='Смотреть →' width='185px'/> 
           </div>
         </div>
       </section>

@@ -6,6 +6,7 @@ import pump from '../images/roles/pump.png';
 import riseUp from '../images/roles/riseup.png';
 import teach from '../images/roles/teach.png';
 import grow from '../images/roles/grow.png';
+import Button from './Button/Button';
 
 export default function Terms() {
   const termsCardsData = [
@@ -70,7 +71,7 @@ export default function Terms() {
             );
           })}
         </Swiper>
-        <button className="terms__button-accept">Мне подходит!</button>
+        <Button text='Мне подходит!' width='185px'/>
       </section>
     </>
   );

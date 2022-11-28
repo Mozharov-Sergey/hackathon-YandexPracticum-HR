@@ -2,6 +2,7 @@ import groupCall from '../images/instructions/groupCall.jpg'
 import work from '../images/instructions/work.jpg'
 import arrowSecong from '../images/instructions/arrowSecong.png'
 import arrowFirst from '../images/instructions/arrowFirst.png'
+import Button from './Button/Button'
 export default function Instructions() {
   return(<>
 <section className="instructions" id="tasks">
@@ -16,7 +17,7 @@ export default function Instructions() {
         <li className="instructions__task">Делиться опытом и мотивировать</li>
       </ul>
     <img className="instructions__image" src={groupCall} alt="картинка"></img>
-    <button className="instructions__button">Буду наставником</button>
+    <Button text='Буду наставником' width='185px'/>
   </div>
   <div className="instructions__reviewers">
     <h3 className="instructions__title_reviewers instructions__subtitle">Ревьюерам:</h3>
@@ -27,7 +28,7 @@ export default function Instructions() {
         <li className="instructions__task">Оценивать работы в формате зачёт/незачёт</li>
       </ul>
       <img className="instructions__image" src={work} alt="картинка"></img>
-    <button className="instructions__button instructions__button_reviewers">Пойду в ревьюеры</button>
+      <Button text='Пойду в ревьюеры' width='185px'/> 
   </div>
   <div className="todo-list">
     <p className="todo-list__text">Выберите роль и&nbsp;заполните заявку</p>
