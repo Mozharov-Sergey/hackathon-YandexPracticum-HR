@@ -1,5 +1,5 @@
 .intro__subtitle {
-  max-width: 590px;
+  max-width: 474px;
   font-family: 'YS Display';
   font-style: normal;
   font-weight: 500;
@@ -12,5 +12,6 @@
 @media screen and (min-width: 1439px) {
   .intro__subtitle {
     font-size: 30px;
+    margin: 0 200px 196px;
   }
 }
