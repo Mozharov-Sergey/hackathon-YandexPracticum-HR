@@ -3,7 +3,7 @@ import arrowSecong from '../images/instructions/arrowSecong.png'
 import arrowFirst from '../images/instructions/arrowFirst.png'
 export default function Instructions() {
   return(<>
-<section className="instructions"  id="instructions">
+<section className="instructions" id="tasks">
   <h2 class="instructions__title">Что нужно будет делать</h2>
   <div className="instructions__mentors">
     <h3 className="instructions__title_mentors instructions__subtitle">Наставникам:</h3>
