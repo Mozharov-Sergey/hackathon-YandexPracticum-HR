@@ -1,9 +1,12 @@
 import './Button.css'
 
-const Button = ({text }) => {
-  
+const Button = ({text, width, handleClick }) => {
+  const handleSubmit = () => {
+    handleClick()
+  }
+
 return (
-    <button target='blank' className='button'>
+    <button target='blank' className='button' style={{ width: width }} onclick={handleSubmit}>
       {text}
     </button>
   )

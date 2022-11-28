@@ -104,6 +104,9 @@
   text-decoration: none;
 }
 
+.footer__menu-link:hover {
+  color: #005CFF;
+}
 .footer__span {
   color: #1A1B22;
 }
