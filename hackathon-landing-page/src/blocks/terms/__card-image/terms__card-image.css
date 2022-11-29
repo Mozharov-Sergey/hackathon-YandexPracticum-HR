@@ -4,3 +4,11 @@
   object-fit: contain;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 376px) {
+  .terms__card-image {
+    width: 165px;
+    height: auto;
+    margin: 0 20px;
+  }
+}
