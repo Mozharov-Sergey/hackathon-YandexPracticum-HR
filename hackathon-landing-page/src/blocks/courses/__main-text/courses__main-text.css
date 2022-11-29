@@ -7,3 +7,11 @@
   padding-bottom: 50px;
   margin: 0;
 }
+
+@media screen and (max-width: 376px) {
+  .courses__main-text {
+    font-size: 21px;
+    margin: 0 16px;
+    padding-bottom: 32px;
+  }
+}

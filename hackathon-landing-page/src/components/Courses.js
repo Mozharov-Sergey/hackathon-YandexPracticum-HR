@@ -57,8 +57,11 @@ export default function Courses() {
 
           <div className="courses__card courses__card_summary">
             <h3 className="courses__card-title courses__card-title_summary">Все курсы</h3>
-            <Button text='Смотреть →' width='185px'/> 
+            <Button text='Смотреть →' width='185px'/>
           </div>
+        </div>
+        <div className='courses__button'>
+        <Button text='Все курсы →' width='185px'/>
         </div>
       </section>
     </>

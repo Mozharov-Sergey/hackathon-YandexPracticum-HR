@@ -7,3 +7,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 376px) {
+  .courses__card-substring {
+    font-size: 18px;
+    line-height: 1;
+  }
+}
