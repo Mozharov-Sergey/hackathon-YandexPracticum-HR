@@ -1,11 +1,12 @@
 .highlight-offers__image {
-  display: block;
+  display: none;
 }
 
 @media screen and (max-width: 376px) {
   .highlight-offers__image {
-      position: absolute;
-      top: 140px;
-      left: 313px;
+    position: absolute;
+    top: 140px;
+    left: 313px;
+    display: block;
   }
 }
