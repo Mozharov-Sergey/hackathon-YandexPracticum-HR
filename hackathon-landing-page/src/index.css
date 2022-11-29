@@ -39,6 +39,7 @@
 @import url(blocks/test/__paragraph/test__paragraph.css);
 @import url(blocks/test/__title/test__title.css);
 @import url(blocks/test/__image-lines/test__image-lines.css);
+@import url(blocks/test/__answer/test__answer.css);
 
 @import url(blocks/courses/___cards-container/courses___cards-container.css);
 @import url(blocks/courses/__card/courses__card.css);

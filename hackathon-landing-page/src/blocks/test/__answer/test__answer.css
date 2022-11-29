@@ -1,0 +1,33 @@
+.test__answer {
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #585858;
+  padding: 8.5px 10px;
+  background-color: #ffffff;
+  border: 1px solid #5db4ca;
+  border-radius: 14px;
+  margin: 30px 8px 0 0;
+}
+/* 
+.test__answer:focus {
+  background-color: #E9F1FF;
+} */
+
+.test__answer_active {
+  background-color: #E9F1FF;
+}
+
+
+.test__answer-container {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
