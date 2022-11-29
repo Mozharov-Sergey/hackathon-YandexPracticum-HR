@@ -2,7 +2,7 @@
   max-width: 550px;
   background-image: url("../../../images/instructions/сircle.svg");
   padding-left: 1.5rem;
-  background-size: 1rem ;
+  background-size: 1rem;
   background-repeat: no-repeat;
   background-position: 0px 10px;
   margin:  0 0 20px 0;
@@ -13,12 +13,29 @@
   line-height: 140%;
 }
 
+.instructions__task:last-of-type {
+  margin-bottom: 0;
+}
+
+
  @media screen and (min-width:1440px){
   .instructions__task {
     font-size: 24px;
   }
 }
 
-.instructions__task:last-of-type {
-  margin-bottom: 0;
+@media screen and (max-width: 376px){
+  .instructions__task {
+    font-size: 18px;
+    line-height: 135%;
+    max-width: 318px;
+    background-size: 15px;
+    background-position: 0px 3px;
+    margin:  0 0 15px 0;
+  }
+  
+  .instructions__task:last-of-type {
+    margin-bottom: 0;
+  }
 }
+
