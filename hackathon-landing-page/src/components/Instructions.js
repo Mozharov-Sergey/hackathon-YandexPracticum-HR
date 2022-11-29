@@ -39,7 +39,7 @@ export default function Instructions({handleClick, setSelectedRole}) {
         <li className="instructions__task">Оценивать работы в формате зачёт/незачёт</li>
       </ul>
       <img className="instructions__image" src={work} alt="картинка"></img>
-      <Button text='Пойду в ревьюеры' width='185px' handleClick={handleClickWithRoleReviewer}/> 
+      <Button text='Пойду в ревьюеры' width='185px'handleClick={handleClickWithRoleReviewer}/>
   </div>
   <div className="todo-list">
     <p className="todo-list__text">Выберите роль и&nbsp;заполните заявку</p>

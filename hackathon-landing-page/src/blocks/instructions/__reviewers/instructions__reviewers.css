@@ -1,12 +1,12 @@
 .instructions__reviewers {
   display: grid;
-  margin-top: 50px;
+  margin-top: 17px;
   grid-template-columns: minmax(358px, 561px) minmax(250px, 560px) ;
   grid-template-areas:
         'image subtitle '
         'image text'
         'image button';
-        row-gap: 25px;
+        gap: 3px;
         column-gap: 40px;
   justify-content: start;
 }
