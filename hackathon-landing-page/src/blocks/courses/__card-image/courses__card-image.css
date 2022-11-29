@@ -7,3 +7,12 @@
   right: -50px;
   bottom: 20px;
 }
+
+@media screen and (max-width: 376px) {
+  .courses__card-image {
+    width: 125px;
+    height: 110px;
+    padding: 0px 88px 0 0;
+    bottom: 5px;
+  }
+}

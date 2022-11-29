@@ -7,3 +7,9 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 376px) {
+  .courses__card-title {
+    font-size: 22px;
+  }
+}
