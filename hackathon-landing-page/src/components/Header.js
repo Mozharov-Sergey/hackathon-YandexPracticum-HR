@@ -1,7 +1,7 @@
 import headerLogo from '../images/headerLogo.svg';
 import Button from './Button/Button';
 
-export default function Header({handleClick, setSelectedRole}) {  
+export default function Header({handleClick, setSelectedRole}) {
 
   const handleClickWithRole = () => {
     setSelectedRole('notSelected')
@@ -12,7 +12,7 @@ export default function Header({handleClick, setSelectedRole}) {
       <header className="header">
       <a href="https://practicum.yandex.ru/" className="header__logo">
         <img src={headerLogo} alt="логотип яндекс-практикум"></img></a>
-      <nav className="header__navigation">
+      <nav className="header__navigation header__navigation_active">
       <ul className="header__links">
         <li className='header__link-burger'><a href="#tasks" className="header__link">Задачи</a></li>
         <li className='header__link-burger'><a href="#courses" className="header__link">Факультеты</a></li>
