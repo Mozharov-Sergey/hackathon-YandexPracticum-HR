@@ -39,7 +39,7 @@
     transition: all 0.3s ease 0s;
   }
 
-  /* .header__burger_active {
+  .header__burger_active {
     display: block;
     position: relative;
     width: 30px;
@@ -49,9 +49,9 @@
     border: none;
     cursor: pointer;
     margin-right: 10px;
-  } */
+  }
 
-  /* .header__burger_active::before {
+  .header__burger_active::before {
     content: "";
     background: #1A1B22;
     border-radius: 12.5px;
@@ -73,7 +73,7 @@
     bottom: 18px;
     left: 3px;
     transform: rotate(137deg);
-  } */
+  }
 
 }
 
