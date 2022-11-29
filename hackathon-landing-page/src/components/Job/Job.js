@@ -4,7 +4,7 @@ import man from '../../images/job/man.png';
 
 const Job = () => {
   return (
-    <section className='job' id='jobs'>
+    <section className='job'>
         <div className='job__info'>
           <p className='job__text'>Не нашли подходящую вакансию?</p>
           <p className='job__text'>Посмотрите другие в основной команде Практикума</p>

@@ -27,7 +27,7 @@ const Questions = () => {
   ]  
 
 return (
-  <section className="questions">
+  <section className="questions section-menu">
     <h2 className="questions__title">Вопросы и ответы</h2>
     <ul className="questions__list-item">
     {questionData.map((question) => {

@@ -16,7 +16,7 @@ export default function Instructions({handleClick, setSelectedRole}) {
   }
 
   return(<>
-<section className="instructions" id="tasks">
+<section className="instructions section-menu" id="tasks">
   <h2 className="instructions__title">Что нужно будет делать</h2>
   <div className="instructions__mentors">
     <h3 className="instructions__title_mentors instructions__subtitle">Наставникам:</h3>
