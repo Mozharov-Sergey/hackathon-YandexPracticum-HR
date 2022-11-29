@@ -16,3 +16,12 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .test__paragraph {
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 269px;
+  }
+ }
+
