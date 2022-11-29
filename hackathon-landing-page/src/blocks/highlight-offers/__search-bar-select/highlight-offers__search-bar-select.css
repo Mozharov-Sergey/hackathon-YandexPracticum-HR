@@ -17,3 +17,9 @@
 .highlight-offers__search-bar-select:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 376px) {
+  .highlight-offers__search-bar-select {
+    display: none;
+  }
+}

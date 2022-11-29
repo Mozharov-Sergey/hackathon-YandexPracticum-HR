@@ -63,6 +63,7 @@
 @import url(blocks/terms/__card-image/terms__card-image.css);
 
 @import url(blocks/highlight-offers/highlight-offers.css);
+@import url(blocks/highlight-offers/__image/highlight-offers__image.css);
 @import url(blocks/highlight-offers/__offer-conditions/highlight-offers__offer-conditions.css);
 @import url(blocks/highlight-offers/__offer-name/highlight-offers__offer-name.css);
 @import url(blocks/highlight-offers/__offer-position/highlight-offers__offer-position.css);

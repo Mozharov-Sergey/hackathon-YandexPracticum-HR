@@ -1,0 +1,11 @@
+.highlight-offers__image {
+  display: block;
+}
+
+@media screen and (max-width: 376px) {
+  .highlight-offers__image {
+      position: absolute;
+      top: 140px;
+      left: 313px;
+  }
+}

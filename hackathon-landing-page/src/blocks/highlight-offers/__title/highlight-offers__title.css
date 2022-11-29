@@ -4,6 +4,16 @@
   font-weight: 500;
   font-size: 50px;
   line-height: 59px;
-  align-self: flex-start;
   margin: 0 0 25px 0;
+  align-self: flex-start;
 }
+
+@media screen and (max-width: 376px) {
+  .highlight-offers__title {
+    font-size: 28px;
+    line-height: 33px;
+    max-width: 200px;
+    margin-left: 16px;
+  }
+}
+

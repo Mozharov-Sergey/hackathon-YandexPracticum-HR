@@ -8,3 +8,10 @@
   margin: 0;
   padding: 0 0 10px 0;
 }
+
+@media screen and (max-width: 376px) {
+  .highlight-offers__offer-position {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
