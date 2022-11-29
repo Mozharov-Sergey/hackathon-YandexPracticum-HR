@@ -3,3 +3,11 @@
   height: 55.4px;
   margin-top: 55.5px;
 }
+
+@media screen and (max-width: 376px) {
+  .test__image-lines {
+    width: 131px;
+    height: 39px;
+    margin-top: 30px;
+  }
+ }

@@ -19,3 +19,11 @@
     padding: 0 273px;
   }
  }
+
+ @media screen and (max-width: 376px) {
+  .test {
+    padding: 0 37px;
+    height: 500px;
+    border-radius: 38px;
+  }
+ }
