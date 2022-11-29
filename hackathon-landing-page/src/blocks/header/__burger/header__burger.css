@@ -1,0 +1,80 @@
+.header__burger {
+  display: none;
+}
+
+@media screen and (max-width: 587px) {
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .header__burger::before {
+    content: "";
+    background: #1A1B22;
+    border-radius: 12.5px;
+    position: absolute;
+    width: 17.5px;
+    height: 2.5px;
+    top: 9px;
+    left: 4px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__burger::after {
+    content: "";
+    background: #1A1B22;
+    border-radius: 12.5px;
+    position: absolute;
+    width: 17.5px;
+    height: 2.5px;
+    bottom: 9px;
+    left: 4px;
+    transition: all 0.3s ease 0s;
+  }
+
+  /* .header__burger_active {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  } */
+
+  /* .header__burger_active::before {
+    content: "";
+    background: #1A1B22;
+    border-radius: 12.5px;
+    position: absolute;
+    width: 17.5px;
+    height: 2.5px;
+    top: 9px;
+    left: 4px;
+    transform: rotate(35deg)
+  }
+
+  .header__burger_active::after {
+    content: "";
+    background: #1A1B22;
+    border-radius: 12.5px;
+    position: absolute;
+    width: 17.5px;
+    height: 2.5px;
+    bottom: 18px;
+    left: 3px;
+    transform: rotate(137deg);
+  } */
+
+}
+
+
