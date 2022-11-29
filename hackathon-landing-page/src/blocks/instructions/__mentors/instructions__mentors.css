@@ -10,3 +10,10 @@
         'button image';
         column-gap: 40px;
 }
+
+@media screen and (max-width: 376px) {
+  .instructions__mentors {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -16,3 +16,12 @@
     grid-template-columns: minmax(130px, 273px) 76px minmax(163px, 300px) 63px minmax(175px, 3258px);
   }
 }
+
+
+@media screen and (max-width: 500px) {
+  .todo-list {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
