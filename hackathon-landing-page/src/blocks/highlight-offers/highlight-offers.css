@@ -6,3 +6,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 376px) {
+  .highlight-offers {
+    max-width: 375px;
+    margin: 0 16px;
+    position: relative;
+  }
+}

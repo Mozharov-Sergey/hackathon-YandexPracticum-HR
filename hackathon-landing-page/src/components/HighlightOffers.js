@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Button from './Button/Button';
-
+import filter from '../images/highlight-offers/filter.svg'
 export default function HighlightOffers() {
   const offersData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // Потом тут будут данные карточек с вакансиями
 
@@ -13,6 +13,7 @@ export default function HighlightOffers() {
   return (
     <section className="highlight-offers section-menu" id="offers">
       <h2 className="highlight-offers__title">Открытые предложения</h2>
+      <img className='highlight-offers__image' src={filter} alt='отфильтровать результат'></img>
       <nav className="highlight-offers__search-bar">
         <select className="highlight-offers__search-bar-select" defaultValue="programming">
           <option className="highlight-offers__search-bar-select-option" value="programming">
@@ -62,7 +63,7 @@ export default function HighlightOffers() {
           }
         })}
       </div>
-      <Button text='Показать еще' width='185px' handleClick={handleClickShowVacanciewButton}/>       
+      <Button text='Показать еще' width='185px' handleClick={handleClickShowVacanciewButton}/>
     </section>
   );
 }
