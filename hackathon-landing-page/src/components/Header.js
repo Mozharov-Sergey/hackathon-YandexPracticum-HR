@@ -2,7 +2,7 @@ import { useState } from 'react';
 import headerLogo from '../images/headerLogo.svg';
 import Button from './Button/Button';
 
-export default function Header({handleClick, setSelectedRole}) {  
+export default function Header({handleClick, setSelectedRole}) {
 
   const [activeBurger, setActiveBurger] = useState(true);
 
