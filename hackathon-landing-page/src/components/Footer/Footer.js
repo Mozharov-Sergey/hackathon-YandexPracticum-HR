@@ -7,7 +7,7 @@ import tg from '../../images/footer/tg.png';
 
 const Footer = () => {
   return (
-    <footer className='footer'>      
+    <footer className='footer' id='footer'>      
       <div className='footer__info'>
           <h2 className='footer__title'>Яндекс Практикум</h2>
           <a href='tel:88007009329' className='footer__phone'>8-800-700-93-29</a>
@@ -38,8 +38,8 @@ const Footer = () => {
           <ul className='footer__list'>
             <li className='footer__list-item'><a className='footer__menu-link' href="#tasks">Задачи</a></li>
             <li className='footer__list-item'><a className='footer__menu-link' href="#courses">Факультеты</a></li>
-            <li className='footer__list-item'><a className='footer__menu-link' href="#offers">Условия</a></li>
-            <li className='footer__list-item'><a className='footer__menu-link' href="#jobs">Вакансии</a></li>
+            <li className='footer__list-item'><a className='footer__menu-link' href="#terms">Условия</a></li>
+            <li className='footer__list-item'><a className='footer__menu-link' href="#offers">Роли</a></li>
             <li className='footer__list-item'><a className='footer__menu-link' href="#reviews">Отзывы</a></li>
           </ul>
           <ul className='footer__list'>

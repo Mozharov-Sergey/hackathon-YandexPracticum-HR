@@ -44,7 +44,7 @@ const cardsData = [
 export default function Courses() {
   return (
     <>
-      <section className="courses" id="courses">
+      <section className="courses section-menu" id="courses">
         <h2 className="courses__title">Чему мы учим</h2>
         <p className="courses__main-text">
           Студенты Яндекс Практикума учатся на 5 основных факультетах. И им очень нехватает вашего

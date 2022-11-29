@@ -51,7 +51,7 @@ export default function Terms({handleClick, setSelectedRole}) {
 
   return (
     <>
-      <section className="terms" id="terms">
+      <section className="terms section-menu" id="terms">
         <h2 className="terms__title">
         В Практикуме вы сможете
         </h2>

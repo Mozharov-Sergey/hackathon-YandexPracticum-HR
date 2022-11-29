@@ -11,7 +11,7 @@ export default function HighlightOffers() {
   }
 
   return (
-    <section className="highlight-offers" id="offers">
+    <section className="highlight-offers section-menu" id="offers">
       <h2 className="highlight-offers__title">Открытые предложения</h2>
       <nav className="highlight-offers__search-bar">
         <select className="highlight-offers__search-bar-select" defaultValue="programming">
