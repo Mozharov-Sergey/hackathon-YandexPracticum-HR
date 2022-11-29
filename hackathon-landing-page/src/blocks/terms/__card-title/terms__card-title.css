@@ -2,6 +2,15 @@
   font-family: 'YS Text';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 30px;
+  line-height: 115%;
+  margin: 0 0 25px 0;
+}
+
+@media screen and (max-width: 376px) {
+  .terms__card-title {
+    font-size: 22px;
+    line-height: 125%;
+    margin: 0 0 20px 0;
+  }
 }

@@ -5,5 +5,11 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+}
+
+@media screen and (max-width: 376px) {
+  .terms {
+    margin-left: 16px;
+  }
 }
