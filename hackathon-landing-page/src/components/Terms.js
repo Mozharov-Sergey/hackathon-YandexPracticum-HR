@@ -8,7 +8,13 @@ import teach from '../images/roles/teach.png';
 import grow from '../images/roles/grow.png';
 import Button from './Button/Button';
 
-export default function Terms() {
+export default function Terms({handleClick, setSelectedRole}) {
+
+  const handleClickWithRole = () => {
+    setSelectedRole('notSelected')
+    handleClick();
+  }
+
   const termsCardsData = [
     {
       title: 'Получать от 35 до 55 тысяч ₽ в месяц',
@@ -71,7 +77,7 @@ export default function Terms() {
             );
           })}
         </Swiper>
-        <Button text='Мне подходит!' width='185px'/>
+        <Button text='Мне подходит!' width='185px' handleClick={handleClickWithRole}/>
       </section>
     </>
   );
