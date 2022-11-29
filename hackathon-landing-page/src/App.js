@@ -9,23 +9,36 @@ import HighlightOffers from './components/HighlightOffers';
 import Test from './components/Test'
 import Questions from './components/Questions/Questions';
 import Intro from './components/Intro'
+import { useState } from 'react';
+import Popup from './components/Popup/Popup';
 
 function App() {
+  const [popupOpen, setPopupOpen] = useState(false);
+  const [selectedRole, setSelectedRole] = useState('notSelected')
+
+  const handleClick = () => {
+    setPopupOpen(true)
+  }
+
+  function closeAllPopups() {
+    setPopupOpen(false)
+  }
+
   return (
     <div className="root">
       <div className="page">
-        <Header></Header>
-        <Intro></Intro>
-        <Instructions></Instructions>
-        <Test></Test>
-        <Courses></Courses>
-        <Terms></Terms>
-        <HighlightOffers></HighlightOffers>
+        <Header handleClick={handleClick} setSelectedRole={setSelectedRole}/>
+        <Intro />
+        <Instructions handleClick={handleClick} setSelectedRole={setSelectedRole}/>
+        <Test />
+        <Courses />
+        <Terms handleClick={handleClick} setSelectedRole={setSelectedRole}/>
+        <HighlightOffers />
         <Reviews />
         <Job />
         <Questions/>
         <Footer />
-
+        <Popup isOpen={popupOpen} selectedRole={selectedRole} setSelectedRole={setSelectedRole} onClose={closeAllPopups}/>
       </div>
     </div>
   );
