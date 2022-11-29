@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 51px; 
+  height: 51px;
   background: #373737;
   border-radius: 120px;
   color: #FFFFFF;
@@ -15,6 +15,7 @@
   text-decoration: none;
   border: none;
   outline: none;
+  grid-area: button;
 }
 
 .button:hover {
