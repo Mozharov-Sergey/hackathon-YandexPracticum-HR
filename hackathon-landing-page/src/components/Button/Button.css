@@ -25,3 +25,19 @@
 .button:active {
   background: #1656C5;
 }
+
+.button__footer {
+  width: 255px;
+  height: 44px;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-family: 'YS Display';
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .button__footer {
+    width: 219px;
+  }
+}
