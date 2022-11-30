@@ -1,9 +1,9 @@
 .job {
-  width: 1160px;
+  max-width: 1160px;
   box-sizing: border-box;
   background: #BAD2FC;
   border-radius: 40px;
-  padding: 45px 45px 40px 50px;
+  padding: 45px 358px 40px 50px;
   position: relative;
 }
 
@@ -26,8 +26,51 @@
   font-family: 'YS Text';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: calc(20px + 10 * (100vw / 1440));
   line-height: 35px;
   color: #000000;
   margin: 0;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .job__text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .job__img {
+    bottom: -17px;
+    right: 25px;
+    width: 194px;
+  }
+
+  .job {
+    padding-right: 232px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .job__img {
+    display: none;
+  }
+
+  .job__text {
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+  }
+
+  .job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 343px;
+    padding: 50px 10px;
+  }
+
+  .job__info {
+    margin-bottom: 25px;
+  }
 }
