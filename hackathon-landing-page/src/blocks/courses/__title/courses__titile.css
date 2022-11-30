@@ -8,12 +8,16 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1189px) {
+  .courses__title {
+    margin: 0 16px;
+  }
+}
 
 @media screen and (max-width: 376px) {
   .courses__title {
     font-size: 28px;
     line-height: 33px;
-    margin: 0 16px;
     padding-bottom: 15px;
   }
 }

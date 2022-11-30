@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 718px) {
   .todo-list__arrow-secong {
     position: static;
     width: 50px;

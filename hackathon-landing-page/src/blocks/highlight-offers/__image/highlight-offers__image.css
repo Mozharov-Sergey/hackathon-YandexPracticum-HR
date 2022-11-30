@@ -2,17 +2,27 @@
   display: none;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 860px) {
   .highlight-offers__image {
     position: absolute;
-    top: 140px;
-    left: 313px;
+    left: 640px;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     background-image: url(../../../images/highlight-offers/filter.svg);
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
     border: none;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .highlight-offers__image {
+    top: 140px;
+    left: 313px;
+    width: 24px;
+    height: 24px;
   }
 }

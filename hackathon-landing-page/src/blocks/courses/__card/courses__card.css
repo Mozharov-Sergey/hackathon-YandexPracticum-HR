@@ -30,21 +30,8 @@
   }
 }
 
-
-
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 500px) {
   .courses__card:last-of-type {
     display: none;
-  }
-}
-
-.courses__button {
-  display: none;
-}
-
-@media screen and (max-width: 376px) {
-  .courses__button {
-    display: block;
-    margin: 25px 90px 0;
   }
 }

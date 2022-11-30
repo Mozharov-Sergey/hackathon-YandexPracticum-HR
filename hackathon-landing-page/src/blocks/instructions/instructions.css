@@ -3,17 +3,9 @@
   margin: 60px auto 0;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1191px) {
   .instructions{
-    max-width: 1161px;
-    /* margin-left: 10px;
-    margin-right: 10px; */
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .instructions{
-    /* margin: 60px 15px 0; */
+    margin: 40px 15px 0;
   }
 }
 
