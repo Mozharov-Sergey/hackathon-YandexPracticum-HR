@@ -27,6 +27,7 @@
 
 @media screen and (max-width: 376px) {
   .highlight-offers__image {
+    display: block;
     top: 140px;
     left: 313px;
     width: 24px;
