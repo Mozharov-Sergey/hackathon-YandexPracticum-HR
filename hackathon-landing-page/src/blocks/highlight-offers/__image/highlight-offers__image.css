@@ -18,6 +18,14 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .highlight-offers__image {
+    display: none;
+  }
+}
+
+
+
 @media screen and (max-width: 376px) {
   .highlight-offers__image {
     top: 140px;
