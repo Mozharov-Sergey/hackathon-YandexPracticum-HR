@@ -18,7 +18,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 718px) {
   .todo-list {
     grid-template-columns: 1fr;
     justify-items: center;

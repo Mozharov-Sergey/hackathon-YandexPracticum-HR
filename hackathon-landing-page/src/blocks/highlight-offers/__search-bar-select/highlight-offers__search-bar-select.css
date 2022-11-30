@@ -18,7 +18,7 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 860px) {
   .highlight-offers__search-bar-select {
     display: none;
   }

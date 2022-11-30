@@ -1,0 +1,10 @@
+.courses__button {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .courses__button {
+    display: block;
+    margin: 25px 90px 0;
+  }
+}

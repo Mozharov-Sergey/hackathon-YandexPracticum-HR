@@ -19,14 +19,9 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 718px) {
   .todo-list__arrow-first {
     position: fixed;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .todo-list__arrow-first {
     position: static;
     width: 50px;
     height: 48.95px;

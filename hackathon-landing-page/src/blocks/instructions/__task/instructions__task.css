@@ -4,7 +4,7 @@
   padding-left: 1.5rem;
   background-size: 1rem;
   background-repeat: no-repeat;
-  background-position: 0px 10px;
+  background-position: 0px 6px;
   margin:  0 0 20px 0;
   font-family: 'YS Text';
   font-style: normal;
@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 555px){
   .instructions__task {
     font-size: 18px;
     line-height: 135%;
@@ -33,7 +33,7 @@
     background-position: 0px 3px;
     margin:  0 0 15px 0;
   }
-  
+
   .instructions__task:last-of-type {
     margin-bottom: 0;
   }
