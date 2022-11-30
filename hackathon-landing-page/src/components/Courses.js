@@ -61,7 +61,7 @@ export default function Courses() {
           </div>
         </div>
         <div className='courses__button'>
-        <Button text='Все курсы →' width='185px'/>
+        <Button text='Все курсы →'/>
         </div>
       </section>
     </>

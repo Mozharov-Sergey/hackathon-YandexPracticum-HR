@@ -16,10 +16,13 @@
   border: none;
   outline: none;
   grid-area: button;
+  justify-self: self-start;
+  width: auto;
+  padding: 11px 20px;
 }
 
 .button:hover {
-  background: #3073E8;
+  background: #005CFF;
 }
 
 .button:active {
@@ -27,8 +30,8 @@
 }
 
 .button__footer {
-  width: 255px;
-  height: 44px;
+  width: auto;
+  padding: 13px 25px 13px 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -38,6 +41,21 @@
     line-height: 19px;
   }
   .button__footer {
-    width: 219px;
+    width: auto;
+    padding: 12.5px 20px 12.5px 15px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .button {
+    width: 100%;
+  }
+  .button__footer {
+    width: auto;
+    padding: 12.5px 20px 12.5px 15px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  }

@@ -27,7 +27,7 @@ export default function Instructions({handleClick, setSelectedRole}) {
         <li className="instructions__task">Делиться опытом и мотивировать</li>
       </ul>
     <img className="instructions__image" src={groupCall} alt="картинка"></img>
-    <Button text='Буду наставником' width='185px' handleClick={handleClickWithRoleMentor}/>
+    <Button text='Буду наставником' handleClick={handleClickWithRoleMentor}/>
   </div>
   <div className="instructions__reviewers">
     <h3 className="instructions__subtitle">Ревьюерам:</h3>
@@ -38,7 +38,7 @@ export default function Instructions({handleClick, setSelectedRole}) {
         <li className="instructions__task">Оценивать работы в формате зачёт/незачёт</li>
       </ul>
       <img className="instructions__image" src={work} alt="картинка"></img>
-      <Button text='Пойду в ревьюеры' width='185px'handleClick={handleClickWithRoleReviewer}/>
+      <Button text='Пойду в ревьюеры' handleClick={handleClickWithRoleReviewer}/>
   </div>
   <div className="todo-list">
     <p className="todo-list__text">Выберите роль и&nbsp;заполните заявку</p>
