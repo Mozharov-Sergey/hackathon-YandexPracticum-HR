@@ -1,0 +1,9 @@
+.test_no-scrollbar {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.test_no-scrollbar::-webkit-scrollbar {
+  display: none;
+
+}

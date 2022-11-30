@@ -48,7 +48,7 @@ export default function TestInProgress({ messages }) {
   function renderBotMessages(data) {
     return data.map((item, index) => {
       return (
-        <p className="from-yandex" key={index}>
+        <p className="test__message-from-yandex" key={index}>
           {item}
         </p>
       );
@@ -60,7 +60,7 @@ export default function TestInProgress({ messages }) {
       {/* НАПРАВЛЕНИЕ */}
       {renderBotMessages(messages.startQuestions)}
       {isCourseClicked ? (
-        <p className="from-applicant">{chosenCourse}</p>
+        <p className="test__message-from-applicant">{chosenCourse}</p>
       ) : (
         <div className="test__answer-container">
           {messages.startAnswers.map((item) => {
@@ -73,7 +73,7 @@ export default function TestInProgress({ messages }) {
       {isCourseClicked && renderBotMessages(messages.qualitiesQuestions)}
       {isCourseClicked &&
         (isQualitiesChosen ? (
-          <p className="from-applicant">{chosenQualities}</p>
+          <p className="test__message-from-applicant">{chosenQualities}</p>
         ) : (
           <>
             <div className="test__answer-container">
@@ -91,7 +91,7 @@ export default function TestInProgress({ messages }) {
       {isQualitiesChosen && renderBotMessages(messages.capabilitiesQuestions)}
       {isQualitiesChosen &&
         (isCappabilitiesChosen ? (
-          <p className="from-applicant">{chosenCappabilities}</p>
+          <p className="test__message-from-applicant">{chosenCappabilities}</p>
         ) : (
           <>
             <div className="test__answer-container">
@@ -110,7 +110,7 @@ export default function TestInProgress({ messages }) {
       {isCappabilitiesChosen && renderBotMessages(messages.expressionsQuestions)}
       {isCappabilitiesChosen &&
         (isExpressionsChosen ? (
-          <p className="from-applicant">{chosenExpressions}</p>
+          <p className="test__message-from-applicant">{chosenExpressions}</p>
         ) : (
           <>
             <div className="test__answer-container">
@@ -126,11 +126,14 @@ export default function TestInProgress({ messages }) {
         ))}
 
       {isExpressionsChosen && (
-        <p className="from-yandex">
+        <p className="test__message-from-yandex">
           {`Круто, спасибо за ответы! Я вижу, что всё указывает на то, что вам суждено стать наставником. Попробуйте, я уверена, вы останетесь довольны этим решением! :)`}
         </p>
       )}
       {isExpressionsChosen && renderBotMessages(messages.goodLuck)}
+      {isExpressionsChosen && <div className="test__button-container">
+              <Button text="Посмотреть предложения" width={'250px'}></Button>
+            </div>}
     </>
   );
 }
