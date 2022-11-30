@@ -71,7 +71,7 @@ const Reviews = () => {
       text: 'С Практикумом меня объединяют любовь к технологиям, вера в онлайн-образование и желание помогать людям покорять новые горизонты. Сам почти полностью осваивал профессию онлайн!'
     },
   ]
-
+ 
   return (
     <section className='reviews section-menu' id='reviews'>
       <h2 className='reviews__title'>Истории ребят из нашей команды</h2>
@@ -81,20 +81,17 @@ const Reviews = () => {
         breakpoints={{
           // when window width is >= 640px
           375: {
-            width: 375,
             slidesPerView: 1.5,
             spaceBetween:15,
           },
           // when window width is >= 768px
           768: {
-            width: 768,
             slidesPerView: 2.5,
-            spaceBetween:30,
+            spaceBetween:15,
           },
-          1300: {
-            width: 1300,
+          1160: {
             slidesPerView: 3.5,
-            spaceBetween:60,
+            spaceBetween:15,
           },
         }}        
         pagination={{
@@ -103,6 +100,7 @@ const Reviews = () => {
         navigation={true}
         className='reviews__swiper'
         grabCursor={true}
+        slidesPerView='auto'
     >
         {reviewsData.map((card) => {
             return (

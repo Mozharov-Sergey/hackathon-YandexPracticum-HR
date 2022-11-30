@@ -60,20 +60,17 @@ export default function Terms({handleClick, setSelectedRole}) {
           breakpoints={{
             // when window width is >= 640px
             375: {
-              width: 375,
               slidesPerView: 1.5,
               spaceBetween:15,
             },
             // when window width is >= 768px
             768: {
-              width: 768,
               slidesPerView: 2.5,
-              spaceBetween:30,
+              spaceBetween:15,
             },
-            1300: {
-              width: 1300,
+            1160: {
               slidesPerView: 3.5,
-              spaceBetween:60,
+              spaceBetween:15,
             },
           }}
 
@@ -83,6 +80,7 @@ export default function Terms({handleClick, setSelectedRole}) {
           navigation={true}
           className="terms__swiper"
           grabCursor={true}
+          slidesPerView='auto'
         >
           {termsCardsData.map((item) => {
             return (
