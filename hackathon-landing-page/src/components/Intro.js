@@ -7,8 +7,9 @@ export default function Intro() {
           и&nbsp;получайте от 35 000 до 55 000&nbsp;₽ в&nbsp;месяц при занятости 2-3 часа в день
         </p>
       </div>
-      <button className="intro__button">
-        <a href='#offers' className="intro__button-text">Какие есть роли</a> </button>
+      <a href='#offers' className="intro__button-text">
+        <button className="intro__button">Какие есть роли</button>
+      </a>
     </section>
   )
 }

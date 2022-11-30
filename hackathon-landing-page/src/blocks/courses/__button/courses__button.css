@@ -4,7 +4,9 @@
 
 @media screen and (max-width: 500px) {
   .courses__button {
+    box-sizing: border-box;
     display: block;
-    margin: 25px 90px 0;
+    margin: 25px 16px 0;
+    width: 100%;
   }
 }

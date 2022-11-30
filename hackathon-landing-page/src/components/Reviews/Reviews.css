@@ -1,5 +1,5 @@
 .reviews {
-  padding: 120px 10.4% 120px 10.4%;
+  padding: 120px 10.4%;
   width: 100%;
   box-sizing: border-box;
 }
@@ -40,8 +40,7 @@
     margin-bottom: 25px;
   }
   .reviews {
-    padding: 100px 32px 100px 32px;
-    padding: 100px 32px 80px 140px;
+    padding: 100px 10.4%;
   }
   .reviews__title {
     font-size: 28px;

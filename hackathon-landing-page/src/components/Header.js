@@ -51,7 +51,7 @@ export default function Header({handleClick, setSelectedRole}) {
       <div className='header__buttons' >
         <button className={styleBurgerBtn} onClick={handleBtnClick}></button>
         <div className='header__button'>
-          <Button text='Начать учить' width='140px'handleClick={handleClickWithRole}/>
+          <Button text='Начать учить' handleClick={handleClickWithRole}/>
         </div>
       </div>
       </header>
