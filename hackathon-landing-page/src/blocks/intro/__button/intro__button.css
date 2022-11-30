@@ -28,3 +28,14 @@
   background: #1656C5;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 375px) {
+  .intro__button {
+    max-width: 343px;
+    width: 100%;
+  }
+  .intro__button-text {
+    width: 100%;  
+    text-align: center;  
+  }
+}
