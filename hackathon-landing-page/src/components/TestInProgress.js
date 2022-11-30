@@ -27,18 +27,32 @@ export default function TestInProgress({ messages }) {
       })
     ) {
       setter(
-        arr.find((item) => {
-          return item !== answer;
+        arr.filter((item) => {
+          return !(item === answer);
         })
       );
+      return true;
     }
   }
 
   function handleClickQualities(e) {
+    // if (
+    //   chosenQualities.some((item) => {
+    //     return item === e.target.value;
+    //   })
+    // ) {
+    //   setChosenQualities(
+    //     chosenQualities.filter((item) => {
+    //       return !(item === e.target.value);
+    //     })
+    //   );
+    //   return;
+    // }
+    if (checkIntersection(chosenQualities, setChosenQualities, e.target.value)) {
+      return;
+    }
+
     setChosenQualities([...chosenQualities, e.target.value]);
-    checkIntersection(chosenQualities, setChosenQualities, e.target.value);
-
-
   }
 
   function handleSubmitQualities() {
@@ -70,16 +84,7 @@ export default function TestInProgress({ messages }) {
       return;
     }
 
-    if (
-      chosenCappabilities.some((item) => {
-        return item === e.target.value;
-      })
-    ) {
-      setChosenCappabilities(
-        chosenCappabilities.filter((item) => {
-          return !(item === e.target.value);
-        })
-      );
+    if (checkIntersection(chosenCappabilities, setChosenCappabilities, e.target.value)) {
       return;
     }
     setChosenCappabilities([...chosenCappabilities, e.target.value]);
@@ -92,6 +97,9 @@ export default function TestInProgress({ messages }) {
   }
 
   function handleClickExpressions(e) {
+    if (checkIntersection(chosenExpressions, setChosenExpressions, e.target.value)) {
+      return;
+    }
     setChosenExpressions([...chosenExpressions, e.target.value]);
   }
 
