@@ -62,6 +62,7 @@
 @import url(blocks/terms/__cards/terms__cards.css);
 @import url(blocks/terms/__button-accept/terms__button-accept.css);
 @import url(blocks/terms/__card-image/terms__card-image.css);
+@import url(blocks/terms/__swiper/terms__swiper.css);
 
 @import url(blocks/highlight-offers/highlight-offers.css);
 @import url(blocks/highlight-offers/__image/highlight-offers__image.css);

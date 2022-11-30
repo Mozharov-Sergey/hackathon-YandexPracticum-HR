@@ -57,13 +57,32 @@ export default function Terms({handleClick, setSelectedRole}) {
         </h2>
 
         <Swiper
+          breakpoints={{
+            // when window width is >= 640px
+            375: {
+              width: 375,
+              slidesPerView: 1.5,
+              spaceBetween:15,
+            },
+            // when window width is >= 768px
+            768: {
+              width: 768,
+              slidesPerView: 2.5,
+              spaceBetween:30,
+            },
+            1300: {
+              width: 1300,
+              slidesPerView: 3.5,
+              spaceBetween:60,
+            },
+          }}
+
           pagination={{
             clickable: true,
           }}
           navigation={true}
-          className="reviews__swiper"
-          slidesPerView={3.5}
-          spaceBetween={60}
+          className="terms__swiper"
+          grabCursor={true}
         >
           {termsCardsData.map((item) => {
             return (
