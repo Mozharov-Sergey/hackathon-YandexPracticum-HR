@@ -1,6 +1,6 @@
 import './Popup/Popup.css'
 
-const Popup = ({isOpen, onClose, selectedRole, setSelectedRole}) => {
+const PopupRole = ({isOpen, onClose, selectedRole, setSelectedRole}) => {
 
   const handlerCloseOverlay = (e) => {
     if (e.currentTarget === e.target) {
@@ -36,4 +36,4 @@ const Popup = ({isOpen, onClose, selectedRole, setSelectedRole}) => {
   )
 }
 
-export default Popup;
+export default PopupRole;

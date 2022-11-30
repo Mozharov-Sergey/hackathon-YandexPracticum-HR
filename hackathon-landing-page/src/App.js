@@ -11,17 +11,24 @@ import Questions from './components/Questions/Questions';
 import Intro from './components/Intro'
 import { useState } from 'react';
 import Popup from './components/Popup/Popup';
+import PopupRole from './components/Popup-role';
 
 function App() {
   const [popupOpen, setPopupOpen] = useState(false);
-  const [selectedRole, setSelectedRole] = useState('notSelected')
+  const [popupOpenRole, setPopupOpenRole] = useState(false);
+  const [selectedRole, setSelectedRole] = useState('notSelected');
 
   const handleClick = () => {
     setPopupOpen(true)
   }
 
+  const handleClickRoleMobile = () => {
+    setPopupOpenRole(true)
+  }
+
   function closeAllPopups() {
     setPopupOpen(false)
+    setPopupOpenRole(false)
   }
 
   return (
@@ -33,12 +40,13 @@ function App() {
         <Test />
         <Courses />
         <Terms handleClick={handleClick} setSelectedRole={setSelectedRole}/>
-        <HighlightOffers />
+        <HighlightOffers handleClickRoleMobile={handleClickRoleMobile}/>
         <Reviews />
         <Job />
         <Questions/>
         <Footer />
         <Popup isOpen={popupOpen} selectedRole={selectedRole} setSelectedRole={setSelectedRole} onClose={closeAllPopups}/>
+        <PopupRole isOpen={popupOpenRole} onClose={closeAllPopups}/>
       </div>
     </div>
   );

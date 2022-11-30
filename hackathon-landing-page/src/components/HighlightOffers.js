@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Button from './Button/Button';
-export default function HighlightOffers() {
+export default function HighlightOffers({handleClickRoleMobile}) {
   const offersData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // Потом тут будут данные карточек с вакансиями
 
   const [isVacanciesShow, setIsVacanciesShow] = useState(false);
@@ -12,9 +12,9 @@ export default function HighlightOffers() {
   return (
     <section className="highlight-offers section-menu" id="offers">
       <h2 className="highlight-offers__title">Открытые предложения</h2>
-      <button className='highlight-offers__image' alt='отфильтровать результат'></button>
+      <button className='highlight-offers__image' alt='отфильтровать результат' onClick={handleClickRoleMobile}></button>
       <nav className="highlight-offers__search-bar">
-        <select className="highlight-offers__search-bar-select" defaultValue="programming">
+        <select className="highlight-offers__search-bar-select" defaultValue="programming" >
           <option className="highlight-offers__search-bar-select-option" value="programming">
             Программирование
           </option>
@@ -29,7 +29,7 @@ export default function HighlightOffers() {
           </option>
         </select>
 
-        <select className="highlight-offers__search-bar-select" defaultValue="mentor">
+        <select className="highlight-offers__search-bar-select" defaultValue="mentor" onClick={handleClickRoleMobile}>
           <option className="highlight-offers__search-bar-select-option" value="mentor">
             Наставник
           </option>
