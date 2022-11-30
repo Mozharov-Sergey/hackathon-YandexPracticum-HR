@@ -77,14 +77,32 @@ const Reviews = () => {
       <h2 className='reviews__title'>Истории ребят из нашей команды</h2>
       <p className='reviews__subtitle'>Они стали крутыми профессионалами и изменили жизни десятков людей — у вас тоже это получится!</p>
       <div className='reviews__list'>
-      <Swiper        
+      <Swiper
+        breakpoints={{
+          // when window width is >= 640px
+          375: {
+            width: 375,
+            slidesPerView: 1.5,
+            spaceBetween:15,
+          },
+          // when window width is >= 768px
+          768: {
+            width: 768,
+            slidesPerView: 2.5,
+            spaceBetween:30,
+          },
+          1300: {
+            width: 1300,
+            slidesPerView: 3.5,
+            spaceBetween:60,
+          },
+        }}        
         pagination={{
           clickable: true,
         }}
         navigation={true}
         className='reviews__swiper'
-        slidesPerView={3.5}
-        spaceBetween={60}
+        grabCursor={true}
     >
         {reviewsData.map((card) => {
             return (
