@@ -1,7 +1,6 @@
 import React from 'react';
 import Answer from './Answer';
 import Button from './Button/Button';
-import getBoundingClientReact from 'react';
 
 export default function TestInProgress({ messages }) {
   const [isCourseClicked, setIsCourseClicked] = React.useState(false);
@@ -21,8 +20,25 @@ export default function TestInProgress({ messages }) {
     setChosenCourse(e.target.value);
   }
 
+  function checkIntersection(arr, setter, answer) {
+    if (
+      arr.some((item) => {
+        return item === answer;
+      })
+    ) {
+      setter(
+        arr.find((item) => {
+          return item !== answer;
+        })
+      );
+    }
+  }
+
   function handleClickQualities(e) {
     setChosenQualities([...chosenQualities, e.target.value]);
+    checkIntersection(chosenQualities, setChosenQualities, e.target.value);
+
+
   }
 
   function handleSubmitQualities() {
@@ -32,7 +48,6 @@ export default function TestInProgress({ messages }) {
   }
 
   function handleClickCappabilities(e, setIsActive) {
-    
     let indexOfIntersectionMore = chosenCappabilities.some((item) => {
       return item === 'Мой опыт работы в данном направлении более двух лет';
     });
@@ -64,7 +79,6 @@ export default function TestInProgress({ messages }) {
         chosenCappabilities.filter((item) => {
           return !(item === e.target.value);
         })
-        
       );
       return;
     }
