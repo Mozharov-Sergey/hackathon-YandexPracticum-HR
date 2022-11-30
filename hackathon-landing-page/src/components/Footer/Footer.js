@@ -7,7 +7,7 @@ import tg from '../../images/footer/tg.png';
 
 const Footer = () => {
   return (
-    <footer className='footer' id='footer'>      
+    <footer className='footer' id='footer'>
       <div className='footer__info'>
           <h2 className='footer__title'>Яндекс Практикум</h2>
           <a href='tel:88007009329' className='footer__phone'>8-800-700-93-29</a>
@@ -17,7 +17,7 @@ const Footer = () => {
             <a className='footer__icon-link' href='https://vk.com/yandex.practicum' target='blank'> <img className='footer__icon' src={vk} alt='Логотип вконтакте'/></a>
             <a className='footer__icon-link' href='https://www.instagram.com/yndx.practicum/' target='blank'> <img className='footer__icon' src={inst} alt='Логотип инстаграмма'/></a>
             <a className='footer__icon-link' href='https://thecode.media/' target='blank'>Журнал</a>
-          </div>          
+          </div>
       </div>
       <div className='footer__group'>
             <p className='footer__text'>Образовательные услуги оказываются АНО ДПО «ШАД».
@@ -27,12 +27,12 @@ const Footer = () => {
             <p className='footer__text'>© 2020 АНО ДПО «ШАД», ООО «Яндекс»</p>
       </div>
       <div className='footer_buttonTg'>
-        <p className='footer__subtitle'>Хочу быть в курсе вакансий Практикума</p>
+        <p className='footer__subtitle'>Следить за предложениями Практикума</p>
         <a className='footer__icon-link' href='https://t.me/practicum_experts' target="blank">
           <button target='blank' className='button button__footer'>
             <img src={tg} alt='Иконка телеграмма' className='footer__icon-tg'></img>@practicum_experts
           </button>
-        </a>       
+        </a>
       </div>
       <nav className='footer__menu'>
           <ul className='footer__list'>
@@ -49,7 +49,7 @@ const Footer = () => {
             <li className='footer__list-item'><a className='footer__menu-link' href="mailto:media@praktikum.yandex.ru" target='blank'>Для СМИ</a></li>
             <li className='footer__list-item'><a className='footer__menu-link' href="https://yandex.ru/legal/praktikum_termsofuse/" target='blank'>Правовая информация</a></li>
           </ul>
-      </nav>   
+      </nav>
     </footer>
   )
 };
