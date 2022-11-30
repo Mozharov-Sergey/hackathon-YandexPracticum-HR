@@ -5,6 +5,7 @@
   font-weight: 500;
   font-size: calc(20px + 10 *(100vw / 1400));
   line-height: 125%;
+  margin: 0;
 }
 
 @media screen and (min-width:1440px){
@@ -18,4 +19,8 @@
   .instructions__subtitle {
     font-size: 22px;
   }
+}
+
+.instructions__reviewers .instructions__subtitle {
+  margin-top: 6px;
 }
