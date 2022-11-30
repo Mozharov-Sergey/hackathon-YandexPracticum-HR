@@ -4,7 +4,7 @@ import arrowSecong from '../images/instructions/arrowSecong.png'
 import arrowFirst from '../images/instructions/arrowFirst.png'
 import Button from './Button/Button'
 export default function Instructions({handleClick, setSelectedRole}) {
-  
+
   const handleClickWithRoleMentor = () => {
     setSelectedRole('mentor')
     handleClick();
@@ -19,19 +19,18 @@ export default function Instructions({handleClick, setSelectedRole}) {
 <section className="instructions section-menu" id="tasks">
   <h2 className="instructions__title">Что нужно будет делать</h2>
   <div className="instructions__mentors">
-    <h3 className="instructions__title_mentors instructions__subtitle">Наставникам:</h3>
+    <h3 className="instructions__subtitle">Наставникам:</h3>
       <ul className="instructions__tasks">
-        <li className="instructions__task">Помогать студентам ставить цели, рефлексировать
+        <li className="instructions__task">Помогать студентам ставить цели, искать ошибки
         и&nbsp;делать выводы</li>
-        <li className="instructions__task">Отвечать на их вопросы в чате</li>
-        <li className="instructions__task">Проводить вебинары 2 раза в месяц и давать обратную&nbsp;связь</li>
+        <li className="instructions__task">Проводить вебинары 2 раза в месяц, давать обратную связь и&nbsp;отвечать на&nbsp;вопросы в&nbsp;чате</li>
         <li className="instructions__task">Делиться опытом и мотивировать</li>
       </ul>
     <img className="instructions__image" src={groupCall} alt="картинка"></img>
     <Button text='Буду наставником' width='185px' handleClick={handleClickWithRoleMentor}/>
   </div>
   <div className="instructions__reviewers">
-    <h3 className="instructions__title_reviewers instructions__subtitle">Ревьюерам:</h3>
+    <h3 className="instructions__subtitle">Ревьюерам:</h3>
       <ul className="instructions__tasks">
         <li className="instructions__task">Проверять код и проекты студентов</li>
         <li className="instructions__task">Простыми словами объяснять им их ошибки</li>

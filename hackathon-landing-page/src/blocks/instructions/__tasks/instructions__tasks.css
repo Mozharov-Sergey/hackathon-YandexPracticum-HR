@@ -1,7 +1,7 @@
 .instructions__tasks {
   grid-area: text;
   padding-inline-start: 26px;
-  margin: 25px 0 27px;
+  margin: 20px 0 30px;
   list-style: none;
   padding: 0;
 }
