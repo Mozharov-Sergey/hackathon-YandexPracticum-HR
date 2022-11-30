@@ -64,7 +64,8 @@
   margin-top: 30px;
   max-height: 0;
   overflow: hidden;
-  transition: 0.5s ease max-height
+  transition: 0.5s ease max-height;
+  margin-right: 131px;
 }
 
 .questions__block_active {
