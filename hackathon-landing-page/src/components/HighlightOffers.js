@@ -29,7 +29,7 @@ export default function HighlightOffers({handleClickRoleMobile}) {
           </option>
         </select>
 
-        <select className="highlight-offers__search-bar-select" defaultValue="mentor" onClick={handleClickRoleMobile}>
+        <select className="highlight-offers__search-bar-select" defaultValue="mentor">
           <option className="highlight-offers__search-bar-select-option" value="mentor">
             Наставник
           </option>
