@@ -19,7 +19,7 @@
   .todo-list {
     grid-template-columns: 1fr;
     justify-items: center;
-    gap: 20px;
+    gap: 35px;
   }
 }
 

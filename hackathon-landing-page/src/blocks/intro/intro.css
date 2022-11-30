@@ -16,6 +16,7 @@
 
 @media screen and (max-width: 376px) {
   .intro {
+    padding-top: 0;
     background-position-x: 516px;
     background-size: 932px 691px;
     margin-bottom: 40px;

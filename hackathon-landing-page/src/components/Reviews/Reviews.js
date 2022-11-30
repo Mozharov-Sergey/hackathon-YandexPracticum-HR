@@ -71,11 +71,11 @@ const Reviews = () => {
       text: 'С Практикумом меня объединяют любовь к технологиям, вера в онлайн-образование и желание помогать людям покорять новые горизонты. Сам почти полностью осваивал профессию онлайн!'
     },
   ]
- 
+
   return (
     <section className='reviews section-menu' id='reviews'>
-      <h2 className='reviews__title'>Истории ребят из нашей команды</h2>
-      <p className='reviews__subtitle'>Они стали крутыми профессионалами и изменили жизни десятков людей — у вас тоже это получится!</p>
+      <h2 className='reviews__title'>Истории ребят из&nbsp;нашей команды</h2>
+      <p className='reviews__subtitle'>Они стали крутыми профессионалами и изменили жизни десятков людей. У&nbsp;вас&nbsp;тоже получится!</p>
       <div className='reviews__list'>
       <Swiper
         breakpoints={{
@@ -93,7 +93,7 @@ const Reviews = () => {
             slidesPerView: 3.5,
             spaceBetween:15,
           },
-        }}        
+        }}
         pagination={{
           clickable: true,
         }}
@@ -108,11 +108,11 @@ const Reviews = () => {
                 <CardReview
                 card={card}
               />
-              </SwiperSlide>              
+              </SwiperSlide>
             );
           })}
-      </Swiper>  
-      
+      </Swiper>
+
       </div>
     </section>
   )

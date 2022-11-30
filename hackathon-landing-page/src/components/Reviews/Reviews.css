@@ -46,11 +46,13 @@
     font-size: 28px;
     line-height: 33px;
   }
+
   .reviews__subtitle {
     font-size: 22px;
     line-height: 125%;
     margin-top: 15px;
   }
+
   .reviews__list {
     margin: 25px 0 0;
   }
@@ -61,8 +63,22 @@
   .reviews__swiper {
     max-width: 375px;
   }
+
   .reviews {
     padding: 80px 16px 80px 16px;
   }
 
+  .reviews__title {
+    font-size: 28px;
+    line-height: 33px;
+    max-width: 239px;
+  }
+
+  .reviews__subtitle {
+    max-width: 306px;
+  }
 }
+
+
+
+

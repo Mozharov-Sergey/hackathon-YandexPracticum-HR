@@ -4,7 +4,6 @@
 
 @media screen and (max-width: 860px) {
   .highlight-offers__image {
-    position: absolute;
     left: 640px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,19 +17,11 @@
   }
 }
 
-@media screen and (max-width: 700px) {
-  .highlight-offers__image {
-    display: none;
-  }
-}
-
 
 @media screen and (max-width: 376px) {
   .highlight-offers__image {
-    display: block;
-    top: 140px;
-    left: 313px;
     width: 24px;
     height: 24px;
+    margin: 4px 17px 0 0;
   }
 }

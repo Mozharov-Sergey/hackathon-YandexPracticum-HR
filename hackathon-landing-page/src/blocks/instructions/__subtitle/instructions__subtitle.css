@@ -8,6 +8,12 @@
   margin: 0;
 }
 
+
+.instructions__reviewers .instructions__subtitle {
+  margin-top: 6px;
+}
+
+
 @media screen and (min-width:1440px){
   .instructions__subtitle {
     font-size: 30px;
@@ -19,8 +25,10 @@
   .instructions__subtitle {
     font-size: 22px;
   }
+  .instructions__reviewers .instructions__subtitle {
+    margin-top: 0;
+  }
+
+
 }
 
-.instructions__reviewers .instructions__subtitle {
-  margin-top: 6px;
-}

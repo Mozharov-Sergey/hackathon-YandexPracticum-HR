@@ -11,8 +11,10 @@ export default function HighlightOffers({handleClickRoleMobile}) {
 
   return (
     <section className="highlight-offers section-menu" id="offers">
-      <h2 className="highlight-offers__title">Открытые предложения</h2>
-      <button className='highlight-offers__image' alt='отфильтровать результат' onClick={handleClickRoleMobile}></button>
+      <div className="highlight-offers__title-container">
+        <h2 className="highlight-offers__title">Открытые предложения</h2>
+        <button className='highlight-offers__image' alt='отфильтровать результат' onClick={handleClickRoleMobile}></button>
+      </div>
       <nav className="highlight-offers__search-bar">
         <select className="highlight-offers__search-bar-select" defaultValue="programming" >
           <option className="highlight-offers__search-bar-select-option" value="programming">
@@ -55,8 +57,8 @@ export default function HighlightOffers({handleClickRoleMobile}) {
                 key={index}
               >
                 <h4 className="highlight-offers__offer-position">Наставник на курс</h4>
-                <h3 className="highlight-offers__offer-name">Мидл фронтенд-разработчик</h3>
-                <p className="highlight-offers__offer-conditions">Ведение группы, ~ 35 тыс руб/мес</p>
+                <h3 className="highlight-offers__offer-name">Pyton-разработчик (&nbsp;в&nbsp;резерв)</h3>
+                <p className="highlight-offers__offer-conditions">Ведение группы, от 50 000 ₽ в месяц</p>
               </div>
             );
           }

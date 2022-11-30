@@ -17,6 +17,7 @@
 @media screen and (max-width: 376px) {
   .courses__main-text {
     font-size: 21px;
-    padding-bottom: 32px;
+    padding-bottom: 27px;
+    line-height: 134%;
   }
 }

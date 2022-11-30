@@ -23,8 +23,8 @@
   .todo-list__arrow-first {
     position: fixed;
     position: static;
-    width: 50px;
-    height: 48.95px;
-    transform: rotate(69.5deg)
+    width: 77px;
+    height: 39px;
+    transform: rotate(79.5deg);
   }
 }

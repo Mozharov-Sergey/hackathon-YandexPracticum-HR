@@ -35,7 +35,7 @@ export default function Instructions({handleClick, setSelectedRole}) {
         <li className="instructions__task">Проверять код и проекты студентов</li>
         <li className="instructions__task">Простыми словами объяснять им их ошибки</li>
         <li className="instructions__task">Давать корректирующую обратную связь</li>
-        <li className="instructions__task">Оценивать работы в формате зачёт/незачёт</li>
+        <li className="instructions__task">Оценивать работы в формате зачёт&nbsp;/&nbsp;незачёт</li>
       </ul>
       <img className="instructions__image" src={work} alt="картинка"></img>
       <Button text='Пойду в ревьюеры' handleClick={handleClickWithRoleReviewer}/>

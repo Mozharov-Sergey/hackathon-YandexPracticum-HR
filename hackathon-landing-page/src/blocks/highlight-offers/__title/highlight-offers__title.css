@@ -29,3 +29,11 @@
   }
 }
 
+
+.highlight-offers__title-container {
+  display: flex;
+  align-items: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}

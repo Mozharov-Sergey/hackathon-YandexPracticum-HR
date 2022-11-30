@@ -27,7 +27,7 @@
 @media screen and (max-width: 555px){
   .instructions__task {
     font-size: 18px;
-    line-height: 135%;
+    line-height: 132%;
     max-width: 318px;
     background-size: 15px;
     background-position: 0px 3px;
