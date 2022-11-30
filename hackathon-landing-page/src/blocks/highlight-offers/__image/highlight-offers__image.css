@@ -8,5 +8,11 @@
     top: 140px;
     left: 313px;
     display: block;
+    background-image: url(../../../images/highlight-offers/filter.svg);
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
   }
 }

@@ -1,8 +1,8 @@
 .highlight-offers__offers-container {
   padding: 52px 0 0 0;
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); */
   grid-template-rows: auto;
   gap: 40px;
   max-width: 1160px;

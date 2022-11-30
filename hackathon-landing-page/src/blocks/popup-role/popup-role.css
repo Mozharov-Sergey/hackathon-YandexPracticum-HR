@@ -1,0 +1,58 @@
+.popup-role__button {
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px 10px 10px;
+  background-color: transparent;
+  border: 0.7px solid #000000;
+  border-radius: 10px;
+  margin: 0 15px 15px 0 ;
+}
+
+.popup-role__button:hover {
+  border: none;
+  background: #F0F0F0
+}
+
+.popup-role__title {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 125%;
+  color: #000000;
+  align-self: flex-start;
+  margin: 0 0 15px 0;
+}
+
+.popup-role__close {
+  background-image: url('../../images/popup/close.svg');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  border: none;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 56px;
+  bottom: 333px;
+  cursor: pointer;
+  transition: opacity .4s;
+}
+
+.popup-role__content {
+  padding: 25px 45px 45px 25px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.popup-role__buttons {
+  display: flex;
+  align-items:flex-start;
+  flex-direction: row;
+}
