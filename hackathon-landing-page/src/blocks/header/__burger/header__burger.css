@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 587px) {
+@media screen and (max-width: 902px) {
   .header__burger {
     display: block;
     position: relative;
