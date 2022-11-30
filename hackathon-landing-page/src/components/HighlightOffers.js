@@ -62,7 +62,7 @@ export default function HighlightOffers({handleClickRoleMobile}) {
           }
         })}
       </div>
-      <Button text='Показать еще' width='185px' handleClick={handleClickShowVacanciewButton}/>
+      <Button text='Показать еще' handleClick={handleClickShowVacanciewButton}/>
     </section>
   );
 }
