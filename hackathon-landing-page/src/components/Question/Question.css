@@ -78,7 +78,8 @@
     margin-bottom: 0;
   }
   .questions__item::before {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
+    background-color: #E0E0E0
   }
 
   .questions__block {
