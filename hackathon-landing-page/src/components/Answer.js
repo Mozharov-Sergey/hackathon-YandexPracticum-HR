@@ -6,7 +6,7 @@ export default function Answer({ item, onClick }) {
 
   function handleClick(e) {
     setIsClicked(!isClicked);
-    onClick(e);
+    onClick(e, setIsClicked);
   }
 
 
