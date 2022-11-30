@@ -44,6 +44,7 @@
 @import url(blocks/test/__message-from-applicant/test__message-from-applicant.css);
 @import url(blocks/test/_no-scrollbar/test_no-scrollbar.css);
 @import url(blocks/test/__button-container/test__button-container.css);
+@import url(blocks/test/_in-progress/test_in-progress.css);
 
 @import url(blocks/courses/___cards-container/courses___cards-container.css);
 @import url(blocks/courses/__card/courses__card.css);

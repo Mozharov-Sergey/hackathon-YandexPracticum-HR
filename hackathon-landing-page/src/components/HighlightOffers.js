@@ -40,7 +40,7 @@ export default function HighlightOffers({handleClickRoleMobile}) {
       </nav>
       <div className="highlight-offers__offers-container">
         {offersData.map((item, index) => {
-          if (index < 8) {
+          if (index < 4) {
             return (
               <div className="highlight-offers__offer" key={index}>
                 <h4 className="highlight-offers__offer-position">Наставник на курс</h4>

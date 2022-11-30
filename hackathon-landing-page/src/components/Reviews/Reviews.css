@@ -41,6 +41,7 @@
   }
   .reviews {
     padding: 100px 32px 100px 32px;
+    padding: 100px 32px 80px 140px;
   }
   .reviews__title {
     font-size: 28px;
@@ -52,7 +53,7 @@
     margin-top: 15px;
   }
   .reviews__list {
-    margin-top: 25px;
+    margin: 25px 0 0;
   }
 
 }

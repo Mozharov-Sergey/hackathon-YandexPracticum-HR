@@ -1,7 +1,6 @@
 import React from 'react';
 import Answer from './Answer';
 import Button from './Button/Button';
-import getBoundingClientReact from 'react';
 
 export default function TestInProgress({ messages }) {
   const [isCourseClicked, setIsCourseClicked] = React.useState(false);
@@ -21,20 +20,75 @@ export default function TestInProgress({ messages }) {
     setChosenCourse(e.target.value);
   }
 
+  function checkIntersection(arr, setter, answer) {
+    if (
+      arr.some((item) => {
+        return item === answer;
+      })
+    ) {
+      setter(
+        arr.find((item) => {
+          return item !== answer;
+        })
+      );
+    }
+  }
+
   function handleClickQualities(e) {
     setChosenQualities([...chosenQualities, e.target.value]);
+    checkIntersection(chosenQualities, setChosenQualities, e.target.value);
+
+
   }
 
   function handleSubmitQualities() {
-    setIsQualitiesChosen(true);
+    if (chosenQualities.length > 0) {
+      setIsQualitiesChosen(true);
+    }
   }
 
-  function handleClickCappabilities(e) {
+  function handleClickCappabilities(e, setIsActive) {
+    let indexOfIntersectionMore = chosenCappabilities.some((item) => {
+      return item === 'Мой опыт работы в данном направлении более двух лет';
+    });
+
+    let indexOfIntersectionLess = chosenCappabilities.some((item) => {
+      return item === 'Мой опыт работы в данном направлении менее двух лет';
+    });
+
+    if (e.target.value === 'Мой опыт работы в данном направлении более двух лет' && indexOfIntersectionLess) {
+      setIsActive(false);
+      indexOfIntersectionLess = false;
+      indexOfIntersectionMore = false;
+      return;
+    }
+
+    if (e.target.value === 'Мой опыт работы в данном направлении менее двух лет' && indexOfIntersectionMore) {
+      setIsActive(false);
+      indexOfIntersectionLess = false;
+      indexOfIntersectionMore = false;
+      return;
+    }
+
+    if (
+      chosenCappabilities.some((item) => {
+        return item === e.target.value;
+      })
+    ) {
+      setChosenCappabilities(
+        chosenCappabilities.filter((item) => {
+          return !(item === e.target.value);
+        })
+      );
+      return;
+    }
     setChosenCappabilities([...chosenCappabilities, e.target.value]);
   }
 
   function handleSubmitCappabilities() {
-    setIsCappabilitiesChosen(true);
+    if (chosenCappabilities.length > 0) {
+      setIsCappabilitiesChosen(true);
+    }
   }
 
   function handleClickExpressions(e) {
@@ -42,7 +96,9 @@ export default function TestInProgress({ messages }) {
   }
 
   function handleSubmitExpressions() {
-    setIsExpressionsChosen(true);
+    if (chosenExpressions.length > 0) {
+      setIsExpressionsChosen(true);
+    }
   }
 
   function renderBotMessages(data) {
@@ -131,9 +187,11 @@ export default function TestInProgress({ messages }) {
         </p>
       )}
       {isExpressionsChosen && renderBotMessages(messages.goodLuck)}
-      {isExpressionsChosen && <div className="test__button-container">
-              <Button text="Посмотреть предложения" width={'250px'}></Button>
-            </div>}
+      {isExpressionsChosen && (
+        <div className="test__button-container">
+          <Button text="Посмотреть предложения" width={'250px'}></Button>
+        </div>
+      )}
     </>
   );
 }

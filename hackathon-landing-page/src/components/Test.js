@@ -53,7 +53,7 @@ export default function Test() {
   }
 
   return (
-    <section className="test test_no-scrollbar">
+    <section className={`test test_no-scrollbar ${isInProgress && 'test_in-progress'}`}>
       {!isInProgress && <TestStartPage onStart={handleStart}></TestStartPage>}
       {isInProgress && <TestInProgress messages={dialogs} id="testWindow"></TestInProgress>}
     </section>

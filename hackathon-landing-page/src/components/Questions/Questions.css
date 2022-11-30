@@ -31,11 +31,12 @@
 
 @media screen and (max-width: 376px) {
   .questions {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   .questions__title {
     font-size: 28px;
     line-height: 1;
+    margin-bottom: 35px;
   }
 }

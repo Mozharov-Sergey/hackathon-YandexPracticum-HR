@@ -16,11 +16,11 @@
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 500px) {
   .test__title {
     font-size: 28px;
     line-height: 33px;
     max-width: 271px;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
  }
