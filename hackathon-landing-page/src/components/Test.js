@@ -14,6 +14,7 @@ export default function Test() {
       'Отлично! С качествами мы разобрались, теперь необходимо понять ваши возможности:',
     ],
     expressionsQuestions: ['Супер!, остался последний вопрос. Выбери 1 или 2 подходящих тебе выражения:'],
+    goodLuck: ["Удачи!"], 
 
     startAnswers: [
       { name: 'programming', value: 'Программирование' },
@@ -28,7 +29,21 @@ export default function Test() {
       { name: 'contact', value: 'Я люблю общаться' },
       { name: 'write', value: 'Мне легче писать, чем говорить' },
       { name: 'feedback', value: 'Знаю принципы фидбэка' },
-    ]
+    ],
+    capabilitiesAnswers: [
+      { name: 'experieneMoreThanTwoYears', value: 'Мой опыт работы в данном направлении более двух лет' },
+      { name: 'experieneLessThanTwoYears', value: 'Мой опыт работы в данном направлении менее двух лет' },
+      { name: 'camera', value: 'Могу проводить звонки с камерой' },
+      { name: 'place', value: 'Могу работать в любое время' },
+      { name: 'flexibleTiming', value: 'Хочу работать по гибкому графику' },
+      { name: 'freeTime', value: 'Есть больше 10 свободных часов в неделю' },
+    ],
+    expressionAnswers: [
+      { name: 'atmosphere', value: 'Люблю создавать рабочую атмосферу' },
+      { name: 'organizer', value: 'Считаю, что у меня есть организаторские способности' },
+      { name: 'helper', value: 'Мне нравиться учиться и помогать другим' },
+      { name: 'slow', value: 'Люблю разбираться с задачами в своем темпе без спешки' },
+    ],
   };
 
   const [isInProgress, setIsInProgress] = React.useState(false);
@@ -38,9 +53,9 @@ export default function Test() {
   }
 
   return (
-    <section className="test">
+    <section className="test no-scrollbar">
       {!isInProgress && <TestStartPage onStart={handleStart}></TestStartPage>}
-      {isInProgress && <TestInProgress messages={dialogs}></TestInProgress>}
+      {isInProgress && <TestInProgress messages={dialogs} id="testWindow"></TestInProgress>}
     </section>
   );
 }

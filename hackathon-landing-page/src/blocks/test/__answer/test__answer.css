@@ -13,10 +13,7 @@
   border-radius: 14px;
   margin: 30px 8px 0 0;
 }
-/* 
-.test__answer:focus {
-  background-color: #E9F1FF;
-} */
+
 
 .test__answer_active {
   background-color: #E9F1FF;
