@@ -85,7 +85,7 @@ const Reviews = () => {
             spaceBetween:15,
           },
           // when window width is >= 768px
-          768: {
+          770: {
             slidesPerView: 2.5,
             spaceBetween:15,
           },

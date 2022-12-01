@@ -231,6 +231,7 @@
     padding: 20px 40px 20px 25px;
     width: 343px;
     height: 160px;
+    margin: auto;
   }
 
   .courses__card-image {
