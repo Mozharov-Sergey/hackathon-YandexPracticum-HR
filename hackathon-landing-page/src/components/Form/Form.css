@@ -116,6 +116,51 @@
   color: #000000;
 }
 
+.form__select {
+	width: 100%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+  height: 44px;  
+  box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  border: 1px solid #E0E0E0;
+  padding: 0 10px 0 15px; 
+	outline: none;
+	cursor: pointer;
+}
+
+/* Убираем стрелочку в IE 10 и 11 */
+.form__select::-ms-expand {
+	display: none;
+}
+
+/* По клику - убираем обводку и добавляем свою*/
+.form__select:focus {
+	outline: none;
+}
+
+/* Делаем .select-wrapper родительским элементом для позиционирования "стрелочки" */
+.select-wrapper {
+	position: relative;
+  width: 100%;
+  margin-right: 35px;
+}
+
+.select-wrapper:last-child {
+  margin-right: 0;
+}
+
+.select-wrapper::before {
+	content: url('../../images/popup/ChevronDown.svg');
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+	display: block;
+	pointer-events: none;
+}
+
 @media screen and (max-width: 375px) {
   .form {
     margin-top: 20px;

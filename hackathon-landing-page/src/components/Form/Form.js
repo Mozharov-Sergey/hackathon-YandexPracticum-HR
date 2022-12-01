@@ -23,7 +23,8 @@ const Form = ({onSubmit, selectedRole, setSelectedRole}) => {
               <input type='tel' className='form__input' placeholder='+7 (000) 000-00-00' id='phone'></input>              
             </div>
             <div className="form__group">
-              <select id="sel" className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
+              <div className="select-wrapper">
+                <select id="sel" className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
                 <option className="form__option" disabled value='11'>Направление</option>
                 <option className="form__option" value='1'>Программирование</option>
                 <option className="form__option" value='2'>Анализ данных</option>
@@ -31,11 +32,14 @@ const Form = ({onSubmit, selectedRole, setSelectedRole}) => {
                 <option className="form__option" value='4'>Маркетинг</option>
                 <option className="form__option" value='5'>Дизайн</option>
                 </select> 
-              <select className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
+              </div>
+              <div className="select-wrapper">
+                <select className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
                 <option className="form__option" value='notSelected' disabled>Роль в команде</option>
                 <option className="form__option" value='mentor'>Наставник</option>
                 <option className="form__option" value='reviewer'>Ревьюер</option>
               </select>
+              </div>              
             </div>            
           </div>
           <input type='text' className='form__input' placeholder='Ссылка на ваше резюме' ></input>
