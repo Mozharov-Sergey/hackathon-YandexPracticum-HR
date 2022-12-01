@@ -97,6 +97,13 @@
   display: none;
 }
 
+.coursee__button-link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+}
+
 .courses__card {
   position: relative;
   width: 360px;

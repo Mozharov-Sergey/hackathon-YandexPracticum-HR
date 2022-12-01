@@ -94,7 +94,9 @@ export default function Terms({handleClick, setSelectedRole}) {
             );
           })}
         </Swiper>
-        <Button text='Мне подходит!' padding='15px 40px' handleClick={handleClickWithRole}/>
+        <div className='terms__btn'>
+          <Button text='Мне подходит!' padding='15px 40px' handleClick={handleClickWithRole}/>
+        </div>        
       </section>
     </>
   );
