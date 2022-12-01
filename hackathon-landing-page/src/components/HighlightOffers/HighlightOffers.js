@@ -1,13 +1,24 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Button from '../Button/Button';
 export default function HighlightOffers({ handleClickRoleMobile }) {
   const offersData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // Потом тут будут данные карточек с вакансиями
 
   const [isVacanciesShow, setIsVacanciesShow] = useState(false);
+  const [buttonText, setButtonText] = React.useState('Показать еще')
 
   function handleClickShowVacanciewButton() {
     setIsVacanciesShow(!isVacanciesShow);
   }
+
+  React.useEffect(() => {
+    if(isVacanciesShow) {
+      setButtonText("Свернуть");
+    }
+    else {
+      setButtonText("Показать еще");
+    }
+
+  }, [isVacanciesShow])
 
   return (
     <section className="highlight-offers section-menu" id="offers">
@@ -68,7 +79,7 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
           }
         })}
       </div>
-      <Button text="Показать еще" padding="15px 40px" handleClick={handleClickShowVacanciewButton} />
+      <Button text={buttonText} padding="15px 40px" handleClick={handleClickShowVacanciewButton} />
     </section>
   );
 }
