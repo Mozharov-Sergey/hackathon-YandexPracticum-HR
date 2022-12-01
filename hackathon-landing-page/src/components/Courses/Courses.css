@@ -215,6 +215,15 @@
     height: 160px;
   }
 
+  .courses__card-container {
+    position: relative;
+    width: 343px;
+    height: 160px;
+    color: black;
+  }
+
+
+
   .courses__card-image {
     width: 125px;
     height: 110px;
