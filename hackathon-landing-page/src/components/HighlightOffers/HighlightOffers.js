@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Button from '../Button/Button';
+import stars from '../../images/highlight-offers/stars.png'
+import lines from '../../images/highlight-offers/line.png'
 export default function HighlightOffers({ handleClickRoleMobile }) {
   const offersData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // Потом тут будут данные карточек с вакансиями
 
@@ -23,6 +25,7 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
   return (
     <section className="highlight-offers section-menu" id="offers">
       <div className="highlight-offers__title-container">
+      <img className='highlight-offers__image-stars' src={stars} alt='рисунок звезд'></img>
         <h2 className="highlight-offers__title">Открытые предложения</h2>
         <button
           className="highlight-offers__image"
@@ -58,7 +61,7 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
           </select>
         </div>
 
-        
+
       </nav>
       <div className="highlight-offers__offers-container">
         {offersData.map((item, index) => {
@@ -85,6 +88,7 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
         })}
       </div>
       <Button text={buttonText} padding="15px 40px" handleClick={handleClickShowVacanciewButton} />
+      <img className='highlight-offers__image-lines' src={lines} alt='рисунок линий'></img>
     </section>
   );
 }
