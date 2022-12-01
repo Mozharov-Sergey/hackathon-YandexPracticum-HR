@@ -4,31 +4,49 @@
 
 .form__info {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  width: 100%;
   margin-bottom: 35px;
 }
 
 .form__group {
-  width: 280px;
-  margin-right: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.form__group:nth-child(2) {
+  margin-bottom: 35px;
 }
 
 .form__group:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.form__group .form__input {
+  margin-right: 35px;
+}
+
+.form__group .form__input:last-child {
   margin-right: 0;
 }
 
 .form__select {
   width: 100%;
-  margin-top: 10px;
   height: 44px;  
   box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.06);
   border-radius: 12px;
-  border: none;
-  padding: 0 10px 0 15px;
-  appearance: none;
+  border: 1px solid #E0E0E0;
+  padding: 0 10px 0 15px;  
   background-image: url('../../images/popup/ChevronDown.svg') no-repeat right;
-  background: #F0F0F0;
   background-position-x: calc(100% - 8px);
+  margin-right: 35px;
+}
+
+.form__select:last-child {
+  margin-right: 0;
 }
 
 .form__input {
@@ -46,14 +64,6 @@
   padding: 12px;
 }
 
-.popup__form .form__input {
-  margin-bottom: 0;
-}
-
-.form__group .form__input {
-  margin-bottom: 25px;
-}
-
 .form__label-input {
   margin: 5px 0 25px;
   font-family: 'YS Text';
@@ -62,6 +72,7 @@
   font-size: 14px;
   line-height: 16px;
   color: #575656;
+  margin-left: 10px;
 }
 
 .form__check {
@@ -103,4 +114,97 @@
   font-size: 16px;
   line-height: 19px;
   color: #000000;
+}
+
+.form__select {
+	width: 100%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+  height: 44px;  
+  box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  border: 1px solid #E0E0E0;
+  padding: 0 10px 0 15px; 
+	outline: none;
+	cursor: pointer;
+}
+
+/* Убираем стрелочку в IE 10 и 11 */
+.form__select::-ms-expand {
+	display: none;
+}
+
+/* По клику - убираем обводку и добавляем свою*/
+.form__select:focus {
+	outline: none;
+}
+
+/* Делаем .select-wrapper родительским элементом для позиционирования "стрелочки" */
+.select-wrapper {
+	position: relative;
+  width: 100%;
+  margin-right: 35px;
+}
+
+.select-wrapper:last-child {
+  margin-right: 0;
+}
+
+.select-wrapper::before {
+	content: url('../../images/popup/ChevronDown.svg');
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+	display: block;
+	pointer-events: none;
+}
+
+@media screen and (max-width: 375px) {
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form__group {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .form__group:nth-child(2) {
+    margin-bottom: 0;
+  }
+  .form__group .form__input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .form__input {    
+    height: 46px;
+    padding: 12px;
+  }
+  .form__select {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .form__select:last-child {
+    margin-bottom: 0;
+  }
+  .form__info {
+    margin-bottom: 10px;
+  }
+  .form__label-input {
+    margin: 5px 0 10px 10px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 10px;
+    align-self: flex-start;
+  }
+  .form__check {
+    margin: 10px 0 20px;
+  }
+  .form__custom-checkbox-label {
+    font-size: 13px;
+    line-height: 15px;
+  }
 }

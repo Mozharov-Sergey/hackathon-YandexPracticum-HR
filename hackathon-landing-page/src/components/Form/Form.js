@@ -15,28 +15,34 @@ const Form = ({onSubmit, selectedRole, setSelectedRole}) => {
         >
           <div className='form__info'>
             <div className="form__group">
-              <input type='text' className='form__input' placeholder='Имя' minLength='' maxLength=''></input>
-              <input type='text' className='form__input' placeholder='E-mail' minLength='' maxLength=''></input>
-              <select className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
+              <input type='text' className='form__input' placeholder='Имя' minLength='2' maxLength='15'></input>
+              <input type='text' className='form__input' placeholder='Фамилия' minLength='2' maxLength='15'></input>
+            </div>
+            <div className="form__group">
+              <input type='text' className='form__input' placeholder='E-mail' minLength='2' maxLength='30'></input>
+              <input type='tel' className='form__input' placeholder='+7 (000) 000-00-00' id='phone'></input>              
+            </div>
+            <div className="form__group">
+              <div className="select-wrapper">
+                <select id="sel" className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
                 <option className="form__option" disabled value='11'>Направление</option>
                 <option className="form__option" value='1'>Программирование</option>
                 <option className="form__option" value='2'>Анализ данных</option>
                 <option className="form__option" value='3'>Менеджемент</option>
                 <option className="form__option" value='4'>Маркетинг</option>
                 <option className="form__option" value='5'>Дизайн</option>
-              </select>
-            </div>
-            <div className="form__group">
-              <input type='text' className='form__input' placeholder='Фамилия' minLength='' maxLength=''></input>             
-              <input type='tel' className='form__input' placeholder='+7 (000) 000-00-00' minLength='' maxLength=''></input>
-              <select className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
+                </select> 
+              </div>
+              <div className="select-wrapper">
+                <select className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
                 <option className="form__option" value='notSelected' disabled>Роль в команде</option>
                 <option className="form__option" value='mentor'>Наставник</option>
                 <option className="form__option" value='reviewer'>Ревьюер</option>
               </select>
+              </div>              
             </div>            
           </div>
-          <input type='text' className='form__input' placeholder='Ссылка на ваше резюме' minLength='' maxLength=''></input>
+          <input type='text' className='form__input' placeholder='Ссылка на ваше резюме' ></input>
           <p className="form__label-input">Убедитесь, что доступ к документу открыт</p>
           <textarea id="text_area" type='text' className='form__input' placeholder='Расскажите о своих навыках' rows="1"></textarea>
           <div className="text_area_div"></div>
