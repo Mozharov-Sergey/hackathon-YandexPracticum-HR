@@ -4,7 +4,8 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
   const offersData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // Потом тут будут данные карточек с вакансиями
 
   const [isVacanciesShow, setIsVacanciesShow] = useState(false);
-  const [buttonText, setButtonText] = React.useState('Показать еще')
+  const [buttonText, setButtonText] = React.useState('Показать еще');
+  const [countCard, setCountCard] = React.useState(8)
 
   function handleClickShowVacanciewButton() {
     setIsVacanciesShow(!isVacanciesShow);
@@ -19,6 +20,27 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
     }
 
   }, [isVacanciesShow])
+
+  React.useEffect(() => {
+    let timer;
+    const handleChangeWidthScreenTimer = () => {
+      timer = setTimeout(handleChangeWidthScreen, 1000);
+    };
+    window.addEventListener("resize", handleChangeWidthScreenTimer);
+    return () => {
+      window.removeEventListener("resize", handleChangeWidthScreenTimer);
+      clearTimeout(timer);
+    };
+  });  
+
+  const handleChangeWidthScreen = () => {    
+    if (window.innerWidth < 376) {
+      debugger;
+      setCountCard(8)
+    } else {
+      setCountCard(4)
+    }
+  }
 
   return (
     <section className="highlight-offers section-menu" id="offers">
@@ -62,7 +84,7 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
       </nav>
       <div className="highlight-offers__offers-container">
         {offersData.map((item, index) => {
-          if (index < 8) {
+          if (index < countCard) {
             return (
               <div className="highlight-offers__offer" key={index}>
                 <h4 className="highlight-offers__offer-position">Наставник на курс</h4>

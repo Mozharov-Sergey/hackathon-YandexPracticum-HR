@@ -104,7 +104,7 @@
   .todo-list {
     grid-template-columns: 1fr;
     justify-items: center;
-    gap: 35px;
+    gap: 30px;
     margin-top: 55px;
   }
 }
