@@ -88,9 +88,9 @@
   }
 
   .questions__block {
-    margin-top: 20px;
     font-size: 16px;
     line-height: 19px;
+    margin: 20px 58px 0 0;
   }
 
   .questions__block_active {
