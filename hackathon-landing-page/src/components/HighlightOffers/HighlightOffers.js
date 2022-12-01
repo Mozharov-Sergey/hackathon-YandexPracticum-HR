@@ -37,7 +37,6 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
 
   const handleChangeWidthScreen = () => {    
     if (window.innerWidth < 376) {
-      debugger;
       setCountCard(8)
     } else {
       setCountCard(4)

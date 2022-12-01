@@ -250,8 +250,9 @@
   .courses__card-image {
     width: 125px;
     height: 110px;
-    padding: 0px 87px 5px 0;
+    padding: 0px 40px 5px 0;
     bottom: 5px;
+    right: 0;
   }
 
   .courses__card-title {
