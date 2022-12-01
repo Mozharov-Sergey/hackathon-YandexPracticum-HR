@@ -57,7 +57,9 @@ export default function Courses() {
 
           <div className="courses__card courses__card_summary">
             <h3 className="courses__card-title courses__card-title_summary">Все курсы</h3>
-            <Button text='Смотреть →' padding='15px 25px'/>
+            <a  href="https://practicum.yandex.ru/catalog/" className='coursee__button-link' target='blank'>
+              <Button text='Смотреть →' padding='15px 25px'/>
+            </a>            
           </div>
         </div>
         <div className='courses__button'>

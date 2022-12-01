@@ -25,6 +25,10 @@
   margin-bottom: 20px;
 }
 
+.terms__btn {
+  margin-right: 150px;  
+}
+
 /* .terms__cards {
   max-width: 1440px;
   display: flex;
@@ -152,6 +156,11 @@
 
   .terms__swiper {
     max-width: 375px;
+  }
+
+  .terms__btn {
+    width: 100%;
+    margin-right: 0;  
   }
 
 }
