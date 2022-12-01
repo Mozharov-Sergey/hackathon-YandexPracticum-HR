@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/hackathon-YandexPracticum-HR/static/css/main.ad5085d0.css",
-    "main.js": "/hackathon-YandexPracticum-HR/static/js/main.c917154a.js",
+    "main.css": "/hackathon-YandexPracticum-HR/static/css/main.5a57f298.css",
+    "main.js": "/hackathon-YandexPracticum-HR/static/js/main.ae0b7471.js",
     "static/js/787.4735d0d7.chunk.js": "/hackathon-YandexPracticum-HR/static/js/787.4735d0d7.chunk.js",
-    "static/media/intro.jpg": "/hackathon-YandexPracticum-HR/static/media/intro.1f068c185fd5ebfb2c77.jpg",
     "static/media/work.jpg": "/hackathon-YandexPracticum-HR/static/media/work.2044f91f0df8c016e1fd.jpg",
     "static/media/groupCall.jpg": "/hackathon-YandexPracticum-HR/static/media/groupCall.613689a4d50dbaf55901.jpg",
+    "static/media/intro-min.jpg": "/hackathon-YandexPracticum-HR/static/media/intro-min.ae9f4250a7520c45ef1b.jpg",
     "static/media/YandexSansText-RegularItalic.eot": "/hackathon-YandexPracticum-HR/static/media/YandexSansText-RegularItalic.8b47e91a40261bb8aca9.eot",
     "static/media/YandexSansText-RegularItalic.ttf": "/hackathon-YandexPracticum-HR/static/media/YandexSansText-RegularItalic.40ab454b96e2fe420bfd.ttf",
     "static/media/YandexSansText-Thin.eot": "/hackathon-YandexPracticum-HR/static/media/YandexSansText-Thin.e18e12d5d4439eb6af40.eot",
@@ -59,18 +59,18 @@
     "static/media/4.jpg": "/hackathon-YandexPracticum-HR/static/media/4.ac49b9107a29ee25ae85.jpg",
     "static/media/6.jpg": "/hackathon-YandexPracticum-HR/static/media/6.a12bf20de8ea0b70e5aa.jpg",
     "static/media/cat.png": "/hackathon-YandexPracticum-HR/static/media/cat.66ccae00a455e039ea30.png",
-    "static/media/headerLogo.svg": "/hackathon-YandexPracticum-HR/static/media/headerLogo.37d6c5b4f8f20e293dc3a7619b5f7615.svg",
+    "static/media/headerLogo.svg": "/hackathon-YandexPracticum-HR/static/media/headerLogo.1585c0ecd1d4e798f30756260bc91476.svg",
     "static/media/filter.svg": "/hackathon-YandexPracticum-HR/static/media/filter.19e6cfdf7415a3b17ceb.svg",
     "static/media/close.svg": "/hackathon-YandexPracticum-HR/static/media/close.6bd275e7548def1cd306.svg",
     "index.html": "/hackathon-YandexPracticum-HR/index.html",
     "static/media/ChevronDown.svg": "/hackathon-YandexPracticum-HR/static/media/ChevronDown.2fbdd2b0be0a88cd05e1.svg",
     "static/media/сircle.svg": "/hackathon-YandexPracticum-HR/static/media/сircle.8e6fa65dfcc88a6e4cae.svg",
-    "main.ad5085d0.css.map": "/hackathon-YandexPracticum-HR/static/css/main.ad5085d0.css.map",
-    "main.c917154a.js.map": "/hackathon-YandexPracticum-HR/static/js/main.c917154a.js.map",
+    "main.5a57f298.css.map": "/hackathon-YandexPracticum-HR/static/css/main.5a57f298.css.map",
+    "main.ae0b7471.js.map": "/hackathon-YandexPracticum-HR/static/js/main.ae0b7471.js.map",
     "787.4735d0d7.chunk.js.map": "/hackathon-YandexPracticum-HR/static/js/787.4735d0d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad5085d0.css",
-    "static/js/main.c917154a.js"
+    "static/css/main.5a57f298.css",
+    "static/js/main.ae0b7471.js"
   ]
 }
