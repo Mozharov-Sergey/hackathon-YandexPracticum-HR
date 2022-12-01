@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hackathon-YandexPracticum-HR/static/css/main.89762ce2.css",
-    "main.js": "/hackathon-YandexPracticum-HR/static/js/main.818aeed5.js",
+    "main.css": "/hackathon-YandexPracticum-HR/static/css/main.1adb03e2.css",
+    "main.js": "/hackathon-YandexPracticum-HR/static/js/main.329e67d2.js",
     "static/js/787.4735d0d7.chunk.js": "/hackathon-YandexPracticum-HR/static/js/787.4735d0d7.chunk.js",
     "static/media/work.jpg": "/hackathon-YandexPracticum-HR/static/media/work.2044f91f0df8c016e1fd.jpg",
     "static/media/groupCall.jpg": "/hackathon-YandexPracticum-HR/static/media/groupCall.613689a4d50dbaf55901.jpg",
@@ -67,15 +67,15 @@
     "static/media/filter.svg": "/hackathon-YandexPracticum-HR/static/media/filter.19e6cfdf7415a3b17ceb.svg",
     "static/media/close.svg": "/hackathon-YandexPracticum-HR/static/media/close.6bd275e7548def1cd306.svg",
     "index.html": "/hackathon-YandexPracticum-HR/index.html",
-    "static/media/arrow_back.svg": "/hackathon-YandexPracticum-HR/static/media/arrow_back.0cda99bb7bd4e210794a348957aade63.svg",
+    "static/media/arrow_back.svg": "/hackathon-YandexPracticum-HR/static/media/arrow_back.9dc5f5e8ce956b7f44dc8a795d1f0ffa.svg",
     "static/media/ChevronDown.svg": "/hackathon-YandexPracticum-HR/static/media/ChevronDown.2fbdd2b0be0a88cd05e1.svg",
     "static/media/сircle.svg": "/hackathon-YandexPracticum-HR/static/media/сircle.8e6fa65dfcc88a6e4cae.svg",
-    "main.89762ce2.css.map": "/hackathon-YandexPracticum-HR/static/css/main.89762ce2.css.map",
-    "main.818aeed5.js.map": "/hackathon-YandexPracticum-HR/static/js/main.818aeed5.js.map",
+    "main.1adb03e2.css.map": "/hackathon-YandexPracticum-HR/static/css/main.1adb03e2.css.map",
+    "main.329e67d2.js.map": "/hackathon-YandexPracticum-HR/static/js/main.329e67d2.js.map",
     "787.4735d0d7.chunk.js.map": "/hackathon-YandexPracticum-HR/static/js/787.4735d0d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89762ce2.css",
-    "static/js/main.818aeed5.js"
+    "static/css/main.1adb03e2.css",
+    "static/js/main.329e67d2.js"
   ]
 }
