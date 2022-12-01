@@ -146,7 +146,7 @@ export default function TestInProgress({ messages }) {
               })}
             </div>
             <div className="test__button-container">
-              <Button text="Отправить ответ" width={'168px'} handleClick={handleSubmitQualities}></Button>
+              <Button text="Отправить ответ" padding="15px 20px" handleClick={handleSubmitQualities}></Button>
             </div>
           </>
         ))}
@@ -165,7 +165,7 @@ export default function TestInProgress({ messages }) {
             </div>
             {/* КНОПКА СЖИМАЕТСЯ, УПИРАЯСЬ В НИЖНИЙ КРАЙ. КОНТЕЙНЕР НУЖЕН, ЧТО БЫ ПРЕДОТВРАТИТЬ ТАКОЕ ПОВЕДЕНИЕ */}
             <div className="test__button-container">
-              <Button text="Отправить ответ" width={'168px'} handleClick={handleSubmitCappabilities}></Button>
+              <Button text="Отправить ответ" padding="15px 20px" handleClick={handleSubmitCappabilities}></Button>
             </div>
           </>
         ))}
@@ -184,7 +184,7 @@ export default function TestInProgress({ messages }) {
             </div>
             {/* КНОПКА СЖИМАЕТСЯ, УПИРАЯСЬ В НИЖНИЙ КРАЙ. КОНТЕЙНЕР НУЖЕН, ЧТО БЫ ПРЕДОТВРАТИТЬ ТАКОЕ ПОВЕДЕНИЕ */}
             <div className="test__button-container">
-              <Button text="Отправить ответ" width={'168px'} handleClick={handleSubmitExpressions}></Button>
+              <Button text="Отправить ответ" padding="15px 20px" handleClick={handleSubmitExpressions}></Button>
             </div>
           </>
         ))}

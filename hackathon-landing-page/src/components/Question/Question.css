@@ -13,6 +13,10 @@
   height: 1px;
 }
 
+.questions__item:last-child {
+  margin-bottom: 0px;
+}
+
 .questions__item-group {
   display: flex;
   justify-content: space-between;
