@@ -180,7 +180,10 @@
 }
 
 @media screen and (max-width: 500px) {
-  .courses__card:last-of-type {
+  /* .courses__card:last-of-type {
+    display: none;
+  } */
+  .courses__card_summary {
     display: none;
   }
 
@@ -214,14 +217,6 @@
     width: 343px;
     height: 160px;
   }
-
-  .courses__card-container {
-    position: relative;
-    width: 343px;
-    height: 160px;
-    color: black;
-  }
-
 
 
   .courses__card-image {
