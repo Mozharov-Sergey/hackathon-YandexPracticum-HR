@@ -26,7 +26,7 @@
 }
 
 .terms__btn {
-  margin-right: 150px;  
+  margin-right: 150px;
 }
 
 /* .terms__cards {
@@ -116,8 +116,7 @@
 @media screen and (max-width: 376px) {
   .terms {
     padding-top: 60px;
-    margin-left: 20px;
-    padding: 77px 0 0 0;
+    padding: 77px 0 0 16px;
   }
 
   .terms__title {
@@ -155,18 +154,18 @@
   }
 
   .terms__swiper {
-    max-width: 375px;
+    max-width: 376px;
   }
 
   .terms__btn {
     width: 100%;
-    margin-right: 0;  
+    margin-right: 0;
   }
 
 }
-
-.terms.style{
-  background-color: blue;
-  width: 400px;
+@media screen and (max-width: 370px) {
+  .swiper {
+    margin-left: 0;
+  }
 
 }

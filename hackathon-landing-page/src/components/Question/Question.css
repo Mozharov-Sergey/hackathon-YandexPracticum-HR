@@ -1,5 +1,5 @@
 .questions__item {
-  /* margin-bottom: 33px; */
+/*   margin-bottom: 30px; */
   cursor: pointer;
 }
 
@@ -68,7 +68,7 @@
   margin-top: 30px;
   max-height: 0;
   overflow: hidden;
-  transition: 0.5s ease max-height;
+  transition: all 0.5s ease ;
   margin-right: 131px;
 }
 
