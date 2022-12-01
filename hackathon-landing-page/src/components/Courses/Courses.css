@@ -5,7 +5,6 @@
   margin: 0;
 }
 
-
 .courses__title {
   font-family: 'YS Display';
   font-style: normal;
@@ -136,30 +135,22 @@
   justify-items: center;
 }
 
+@media screen and (max-width: 1189px) {
+  .courses__title {
+    margin: 0 16px;
+  }
 
-@media screen and (max-width: 376px) {
-  .courses__cards-container {
-    gap: 15px;
+  .courses__main-text {
+    margin: 0 16px;
   }
 }
 
-
-@media screen and (max-width: 376px) {
-  .courses__card {
-    padding: 20px 40px 20px 25px;
-    width: 343px;
-    height: 160px;
-  }
-}
 
 @media screen and (max-width: 500px) {
   .courses__card:last-of-type {
     display: none;
   }
-}
 
-
-@media screen and (max-width: 500px) {
   .courses__button {
     box-sizing: border-box;
     display: block;
@@ -168,64 +159,46 @@
   }
 }
 
-
 @media screen and (max-width: 376px) {
+  .courses {
+    padding-top: 82px;
+  }
+
+  .courses__title {
+    font-size: 28px;
+    line-height: 33px;
+    padding-bottom: 15px;
+  }
+
+  .courses__main-text {
+    font-size: 21px;
+    padding-bottom: 27px;
+    line-height: 134%;
+  }
+
+  .courses__card {
+    padding: 20px 40px 20px 25px;
+    width: 343px;
+    height: 160px;
+  }
+
   .courses__card-image {
     width: 125px;
     height: 110px;
     padding: 0px 88px 0 0;
     bottom: 5px;
   }
-}
 
-
-@media screen and (max-width: 376px) {
-  .courses__card-substring {
-    font-size: 18px;
-    line-height: 1;
-  }
-}
-
-
-@media screen and (max-width: 376px) {
   .courses__card-title {
     font-size: 22px;
   }
-}
 
-@media screen and (max-width: 1189px) {
-  .courses__main-text {
-    margin: 0 16px;
+  .courses__cards-container {
+    gap: 15px;
   }
-}
 
-@media screen and (max-width: 376px) {
-  .courses__main-text {
-    font-size: 21px;
-    padding-bottom: 27px;
-    line-height: 134%;
-  }
-}
-
-
-@media screen and (max-width: 1189px) {
-  .courses__title {
-    margin: 0 16px;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .courses__title {
-    font-size: 28px;
-    line-height: 33px;
-    padding-bottom: 15px;
-  }
-}
-
-
-
-@media screen and (max-width: 376px) {
-  .courses {
-    padding-top: 82px;
+  .courses__card-substring {
+    font-size: 18px;
+    line-height: 1;
   }
 }

@@ -14,7 +14,7 @@
 
 .footer__title {
   display: none;
-  font-family: 'YS Text';
+  font-family: "YS Text";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -28,22 +28,22 @@
 }
 
 .footer__phone {
-  font-family: 'YS Text';
+  font-family: "YS Text";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-  color: #1A1B22;
+  color: #1a1b22;
   text-decoration: none;
 }
 
 .footer__phone-text {
-  font-family: 'YS Text';
+  font-family: "YS Text";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #1A1B22;
+  color: #1a1b22;
   opacity: 0.5;
   margin: 0;
   margin-top: 7px;
@@ -59,12 +59,12 @@
 .footer__icon-link {
   margin-right: 29px;
   text-decoration: none;
-  font-family: 'YS Text';
+  font-family: "YS Text";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #1A1B22;
+  color: #1a1b22;
 }
 
 .footer__icon-link:first-child {
@@ -92,12 +92,12 @@
 .footer__text {
   margin: 0;
   margin-bottom: 15px;
-  font-family: 'YS Text';
+  font-family: "YS Text";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #1A1B22;
+  color: #1a1b22;
   opacity: 0.5;
 }
 
@@ -127,24 +127,25 @@
 }
 
 .footer__menu-link {
-  font-family: 'YS Text';
+  font-family: "YS Text";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #1A1B22;
+  color: #1a1b22;
   text-decoration: none;
 }
 
 .footer__menu-link:hover {
-  color: #005CFF;
+  color: #005cff;
 }
+
 .footer__span {
-  color: #1A1B22;
+  color: #1a1b22;
 }
 
 .footer__subtitle {
-  font-family: 'YS Text';
+  font-family: "YS Text";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -190,7 +191,6 @@
   }
   .footer__icon-link {
     margin-right: 20px;
-
   }
   .footer__social {
     margin-bottom: 20px;
