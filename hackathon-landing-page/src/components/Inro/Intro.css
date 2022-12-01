@@ -86,6 +86,14 @@
   }
 }
 
+
+@media screen and (max-width: 586px) {
+  .intro__text-blur {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 @media screen and (max-width: 376px) {
   .intro {
     padding-top: 0;
