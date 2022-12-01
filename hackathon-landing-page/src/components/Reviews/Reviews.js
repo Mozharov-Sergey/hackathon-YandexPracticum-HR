@@ -81,8 +81,17 @@ const Reviews = () => {
         breakpoints={{
           // when window width is >= 640px
           375: {
-            slidesPerView: 1.4,
+            slidesPerView: 1.3,
             spaceBetween:15,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 2.5,
+            spaceBetween:15,
+          },
+          1160: {
+            slidesPerView: 3.5,
+            spaceBetween: 15,
           },
         }}
         pagination={{
