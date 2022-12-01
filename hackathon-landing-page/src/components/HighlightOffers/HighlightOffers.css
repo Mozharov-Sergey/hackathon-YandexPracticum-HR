@@ -233,7 +233,9 @@
     border: none;
     cursor: pointer;
   }
-
+  .highlight-offers__select-wrapper::before {
+    display: none;
+  }
   .highlight-offers__search-bar-select {
     display: none;
   }
@@ -287,6 +289,7 @@
     font-size: 28px;
     line-height: 33px;
     max-width: 200px;
+    margin-left: 0;
   }
   .highlight-offers__select-wrapper::before {
     display: none;
