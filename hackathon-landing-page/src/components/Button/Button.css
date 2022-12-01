@@ -31,7 +31,12 @@
 
 .button__footer {
   width: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
   padding: 13px 25px 13px 15px;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 768px) {

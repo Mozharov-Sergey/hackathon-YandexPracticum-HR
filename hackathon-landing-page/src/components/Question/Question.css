@@ -3,6 +3,10 @@
   cursor: pointer;
 }
 
+.questions__item:last-child {
+  margin-bottom: 0px;
+}
+
 .questions__item::before {
   content: "";
   display: block;

@@ -10,7 +10,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 125%;
+  line-height: 20px;
   color: #232323;
   cursor: pointer;
 }
@@ -33,6 +33,7 @@
   .intro__button {
     max-width: 343px;
     width: 100%;
+    font-size: 14px;
   }
   .intro__button-text {
     width: 100%;  
