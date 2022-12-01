@@ -141,17 +141,17 @@
 }
 
 /* Делаем .select-wrapper родительским элементом для позиционирования "стрелочки" */
-.select-wrapper {
+.form__select-wrapper {
 	position: relative;
   width: 100%;
   margin-right: 35px;
 }
 
-.select-wrapper:last-child {
+.form__select-wrapper:last-child {
   margin-right: 0;
 }
 
-.select-wrapper::before {
+.form__select-wrapper::before {
 	content: url('../../images/popup/ChevronDown.svg');
 	position: absolute;
 	top: 50%;
