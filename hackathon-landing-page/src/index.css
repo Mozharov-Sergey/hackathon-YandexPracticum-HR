@@ -4,74 +4,21 @@
 @import url(blocks/page/page.css);
 @import url(blocks/root/root.css);
 
-@import url(blocks/header/header.css);
-@import url(blocks/header/__logo/header__logo.css);
-@import url(blocks/header/__burger/header__burger.css);
-@import url(blocks/header/__button/header__button.css);
-@import url(blocks/header/__link/header__link.css);
-@import url(blocks/header/__links/header__links.css);
+@import url(components/Header/Header.css);
 
-@import url(blocks/intro/intro.css);
-@import url(blocks/intro/__title/intro__title.css);
-@import url(blocks/intro/__subtitle/intro__subtitle.css);
-@import url(blocks/intro/__button/intro__button.css);
 
-@import url(blocks/instructions/instructions.css);
-@import url(blocks/instructions/__title/instructions__title.css);
-@import url(blocks/instructions/__subtitle/instructions__subtitle.css);
-@import url(blocks/instructions/__reviewers/instructions__reviewers.css);
-@import url(blocks/instructions/__mentors/instructions__mentors.css);
-@import url(blocks/instructions/__button/__button.css);
-@import url(blocks/instructions/__image/instructions__image.css);
-@import url(blocks/instructions/__tasks/instructions__tasks.css);
-@import url(blocks/instructions/__task/instructions__task.css);
+@import url(components/Inro/Intro.css);
 
-@import url(blocks/todo-list/todo-list.css);
-@import url(blocks/todo-list/__text/todo-list__text.css);
-@import url(blocks/todo-list/__arrow-first/todo-list__arrow-first.css);
-@import url(blocks/todo-list/__arrow-secong/todo-list__arrow-secong.css);
+@import url(components/Instructions/Instructions.css);
+@import url(components/Instructions/TodoList.css);
 
-@import url(blocks/test/test.css);
-@import url(blocks/test/__button/test__button.css);
-@import url(blocks/test/__image-cat/test__image-cat.css);
-@import url(blocks/test/__paragraph/test__paragraph.css);
-@import url(blocks/test/__title/test__title.css);
-@import url(blocks/test/__image-lines/test__image-lines.css);
-@import url(blocks/test/__answer/test__answer.css);
-@import url(blocks/test/__answers-container/test__answers-container.css);
-@import url(blocks/test/__answer/_active/test__answer_active.css);
-@import url(blocks/test/__message-from-yandex/test__message-from-yandex.css);
-@import url(blocks/test/__message-from-applicant/test__message-from-applicant.css);
-@import url(blocks/test/_no-scrollbar/test_no-scrollbar.css);
-@import url(blocks/test/__button-container/test__button-container.css);
-@import url(blocks/test/_in-progress/test_in-progress.css);
+@import url(components/Test/Test.css);
 
 @import url(components/Courses/Courses.css);
 
+@import url(components/Terms/Terms.css);
 
-@import url(blocks/terms/terms.css);
-@import url(blocks/terms/__card-description/terms__card-description.css);
-@import url(blocks/terms/__card-title/terms__card-title.css);
-@import url(blocks/terms/__card/terms__card.css);
-@import url(blocks/terms/__title/terms__title.css);
-@import url(blocks/terms/__cards/terms__cards.css);
-@import url(blocks/terms/__button-accept/terms__button-accept.css);
-@import url(blocks/terms/__card-image/terms__card-image.css);
-@import url(blocks/terms/__swiper/terms__swiper.css);
+@import url(components/HighlightOffers/HighlightOffers.css);
 
-@import url(blocks/highlight-offers/highlight-offers.css);
-@import url(blocks/highlight-offers/__image/highlight-offers__image.css);
-@import url(blocks/highlight-offers/__offer-conditions/highlight-offers__offer-conditions.css);
-@import url(blocks/highlight-offers/__offer-name/highlight-offers__offer-name.css);
-@import url(blocks/highlight-offers/__offer-position/highlight-offers__offer-position.css);
-@import url(blocks/highlight-offers/__offer/highlight-offers__offer.css);
-@import url(blocks/highlight-offers/__offers-container/highlight-offers__offers-container.css);
-@import url(blocks/highlight-offers/__search-bar-button/highlight-offers__search-bar-button.css);
-@import url(blocks/highlight-offers/__search-bar-select/highlight-offers__search-bar-select.css);
-@import url(blocks/highlight-offers/__search-bar/highlight-offers__search-bar.css);
-@import url(blocks/highlight-offers/__title/highlight-offers__title.css);
-@import url(blocks/highlight-offers/__search-bar-select-option/highlight-offers__search-bar-select-option.css);
-@import url(blocks/highlight-offers/__offer/_closed/highlight-offers__offer_closed.css);
-@import url(blocks/highlight-offers/__button-show-more/highlight-offers__button-show-more.css);
 
-@import url(blocks/popup-role/popup-role.css);
+@import url(components/PopupRole/PopupRole.css);

@@ -1,0 +1,205 @@
+.instructions{
+  max-width: 1161px;
+  margin: 60px auto 0;
+}
+.instructions__title {
+  font-family: 'YS Display', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(40px + 10 *(100vw / 1400));
+  line-height: 68px;
+  margin: 0;
+}
+
+.instructions__tasks {
+  grid-area: text;
+  padding-inline-start: 26px;
+  margin: 20px 0 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.instructions__task {
+  max-width: 550px;
+  background-image: url("../../images/instructions/сircle.svg");
+  padding-left: 1.5rem;
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: 0px 6px;
+  margin: 0 0 20px 0;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(10px + 14 *(100vw / 1400));
+  line-height: 135%;
+}
+
+.instructions__task:last-of-type {
+  margin-bottom: 0;
+}
+
+.instructions__subtitle {
+  grid-area: subtitle;
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(20px + 10 *(100vw / 1400));
+  line-height: 125%;
+  margin: 0;
+}
+
+
+.instructions__reviewers .instructions__subtitle {
+  margin-top: 6px;
+}
+
+.instructions__reviewers {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: minmax(358px, 561px) minmax(250px, 560px) ;
+  grid-template-areas:
+        'image subtitle '
+        'image text'
+        'image button';
+        column-gap: 40px;
+  justify-content: start;
+}
+
+.instructions__mentors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  grid-template-areas:
+        'subtitle image'
+        'text image'
+        'button image';
+        column-gap: 40px;
+}
+
+.instructions__image {
+  grid-area: image;
+  width: 100%;
+  height: 326px;
+  background-repeat: no-repeat;
+  margin-top: 6.5px;
+}
+
+.instructions__button {
+  margin-top: 5px;
+  grid-area: button;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+  background-color: #373737;
+  padding: 15.5px 22.5px;
+  max-width: 193px;
+  color: white;
+  border-radius: 120px;
+  max-height: 61px;
+}
+
+.instructions__button_reviewers {
+  margin-bottom: 23px;
+}
+
+
+@media screen and (max-width: 788px) {
+  .instructions__image {
+    margin:  0 0 25px 0;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .instructions__image {
+    width: 343px;
+    height: 200px;
+  }
+}
+
+
+@media screen and (max-width: 788px) {
+  .instructions__mentors {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 788px) {
+  .instructions__reviewers {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .instructions__subtitle {
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 376px){
+  .instructions__subtitle {
+    font-size: 22px;
+  }
+  .instructions__reviewers .instructions__subtitle {
+    margin-top: 0;
+  }
+
+
+}
+
+
+ @media screen and (min-width:1440px){
+  .instructions__task {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 555px){
+  .instructions__task {
+    font-size: 18px;
+    line-height: 132%;
+    max-width: 318px;
+    background-size: 15px;
+    background-position: 0px 3px;
+    margin:  0 0 15px 0;
+  }
+
+  .instructions__task:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+
+@media screen and (max-width: 376px){
+  .instructions__tasks {
+    margin: 21px 0 25px;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .instructions__title {
+    font-size: 50px;
+  }
+}
+
+
+@media screen and (max-width: 555px){
+    .instructions__title {
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 1191px) {
+  .instructions{
+    margin: 40px 15px 0;
+  }
+}
+

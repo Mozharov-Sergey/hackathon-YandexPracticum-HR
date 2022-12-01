@@ -1,17 +1,17 @@
 import Footer from './components/Footer/Footer';
-import Header from './components/Header';
-import Instructions from './components/Instructions';
+import Header from './components/Header/Header';
+import Instructions from './components/Instructions/Instructions';
 import Job from './components/Job/Job';
 import Reviews from './components/Reviews/Reviews';
 import Courses from './components/Courses/Courses';
-import Terms from './components/Terms';
-import HighlightOffers from './components/HighlightOffers';
-import Test from './components/Test'
+import Terms from './components/Terms/Terms';
+import HighlightOffers from './components/HighlightOffers/HighlightOffers';
+import Test from './components/Test/Test'
 import Questions from './components/Questions/Questions';
-import Intro from './components/Intro'
+import Intro from './components/Inro/Intro'
 import { useState } from 'react';
 import Popup from './components/Popup/Popup';
-import PopupRole from './components/Popup-role';
+import PopupRole from './components/PopupRole/Popup-role';
 
 function App() {
   const [popupOpen, setPopupOpen] = useState(false);

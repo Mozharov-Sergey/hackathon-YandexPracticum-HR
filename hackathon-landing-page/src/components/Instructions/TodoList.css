@@ -1,0 +1,114 @@
+.todo-list {
+  max-width: 1160px;
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: minmax(200px, 273px) 111px minmax(261px, 379px) 52px minmax(248px, 3258px);
+  align-items: center;
+  justify-items: stretch;
+  }
+
+
+  .todo-list__text {
+    max-width: 360px;
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 15 *(100vw / 1400));
+    line-height: 1.15;
+    text-align: center;
+    color: #232323;
+    margin: 0;
+  }
+
+  .todo-list__arrow-secong {
+    width: 145px;
+    height: 92px;
+    position: absolute;
+    transform: rotate(-4.49deg);
+    bottom: -38px;
+    left: -61px;
+  }
+
+  .todo-list__arrow-first {
+    width: 149.05px;
+    height: 79.9px;
+    transform: rotate(1.26deg);
+    position: absolute;
+    top: -47px;
+    right: -25px;
+  }
+
+  .todo-list__arrow {
+    position: relative;
+  }
+
+  @media screen and (max-width: 865px) {
+    .todo-list__arrow-first {
+      width: 109.05px;
+      top: -45px;
+      right: -23px;
+    }
+  }
+
+  @media screen and (max-width: 718px) {
+    .todo-list__arrow-first {
+      position: fixed;
+      position: static;
+      width: 77px;
+      height: 39px;
+      transform: rotate(79.5deg);
+    }
+  }
+
+
+  @media screen and (max-width: 865px) {
+    .todo-list__arrow-secong {
+      width: 109.05px;
+      bottom: -38px;
+      left: -27px;
+    }
+  }
+
+  @media screen and (max-width: 718px) {
+    .todo-list__arrow-secong {
+      position: static;
+      width: 50px;
+      height: 54px;
+      transform: rotate(97.5deg)
+    }
+  }
+
+
+  @media screen and (min-width: 1110px) {
+    .todo-list__text {
+      font-size: 30px;
+    }
+  }
+
+
+  @media screen and (max-width: 500px) {
+    .todo-list__text {
+      font-size: 22px;
+      line-height: 125%;
+      max-width: 246px;
+    }
+  }
+
+
+
+/* ломается все на 640 */
+@media screen and (max-width: 865px) {
+  .todo-list {
+    grid-template-columns: minmax(130px, 273px) 76px minmax(163px, 300px) 63px minmax(175px, 3258px);
+  }
+}
+
+
+@media screen and (max-width: 718px) {
+  .todo-list {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 35px;
+  }
+}
+
