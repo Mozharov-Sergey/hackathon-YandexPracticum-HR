@@ -1,13 +1,24 @@
-.instructions{
+.instructions {
   max-width: 1161px;
   margin: 60px auto 0;
 }
+
 .instructions__title {
   font-family: 'YS Display', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: calc(40px + 10 *(100vw / 1400));
   line-height: 68px;
+  margin: 0;
+}
+
+.instructions__subtitle {
+  grid-area: subtitle;
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(20px + 10 *(100vw / 1400));
+  line-height: 125%;
   margin: 0;
 }
 
@@ -37,17 +48,6 @@
 .instructions__task:last-of-type {
   margin-bottom: 0;
 }
-
-.instructions__subtitle {
-  grid-area: subtitle;
-  font-family: 'YS Display';
-  font-style: normal;
-  font-weight: 500;
-  font-size: calc(20px + 10 *(100vw / 1400));
-  line-height: 125%;
-  margin: 0;
-}
-
 
 .instructions__reviewers .instructions__subtitle {
   margin-top: 6px;
@@ -105,95 +105,17 @@
   margin-bottom: 23px;
 }
 
-
-@media screen and (max-width: 788px) {
-  .instructions__image {
-    margin:  0 0 25px 0;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .instructions__image {
-    width: 343px;
-    height: 200px;
-  }
-}
-
-
-@media screen and (max-width: 788px) {
-  .instructions__mentors {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 788px) {
-  .instructions__reviewers {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-}
-
-@media screen and (min-width:1440px){
-  .instructions__subtitle {
-    font-size: 30px;
-  }
-}
-
-
-@media screen and (max-width: 376px){
-  .instructions__subtitle {
-    font-size: 22px;
-  }
-  .instructions__reviewers .instructions__subtitle {
-    margin-top: 0;
-  }
-
-
-}
-
-
- @media screen and (min-width:1440px){
-  .instructions__task {
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 555px){
-  .instructions__task {
-    font-size: 18px;
-    line-height: 132%;
-    max-width: 318px;
-    background-size: 15px;
-    background-position: 0px 3px;
-    margin:  0 0 15px 0;
-  }
-
-  .instructions__task:last-of-type {
-    margin-bottom: 0;
-  }
-}
-
-
-@media screen and (max-width: 376px){
-  .instructions__tasks {
-    margin: 21px 0 25px;
-  }
-}
-
-@media screen and (min-width:1440px){
+@media screen and (min-width:1440px) {
   .instructions__title {
     font-size: 50px;
   }
-}
 
+  .instructions__subtitle {
+    font-size: 30px;
+  }
 
-@media screen and (max-width: 555px){
-    .instructions__title {
-    font-size: 28px;
-    line-height: 33px;
+  .instructions__task {
+    font-size: 24px;
   }
 }
 
@@ -202,4 +124,67 @@
     margin: 40px 15px 0;
   }
 }
+
+@media screen and (max-width: 788px) {
+  .instructions__reviewers {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .instructions__image {
+    margin: 0 0 25px 0;
+    height: 100%;
+  }
+
+  .instructions__mentors {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .instructions__title {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .instructions__task {
+    font-size: 18px;
+    line-height: 132%;
+    max-width: 318px;
+    background-size: 15px;
+    background-position: 0px 3px;
+    margin: 0 0 15px 0;
+  }
+
+  .instructions__task:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .instructions__tasks {
+    margin: 21px 0 25px;
+  }
+
+  .instructions__image {
+    width: 343px;
+    height: 200px;
+  }
+
+  .instructions__subtitle {
+    font-size: 22px;
+  }
+
+  .instructions__reviewers .instructions__subtitle {
+    margin-top: 0;
+  }
+}
+
+
+
+
+
 

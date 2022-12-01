@@ -119,6 +119,7 @@
   padding: 30px;
   background-color: white;
 }
+
 .courses__card_summary {
   border: 1px solid black;
 }
@@ -144,7 +145,6 @@
     margin: 0 16px;
   }
 }
-
 
 @media screen and (max-width: 500px) {
   .courses__card:last-of-type {
