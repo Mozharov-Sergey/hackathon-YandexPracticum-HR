@@ -201,12 +201,19 @@
     width: 100%;
   }
 
-  .courses__card-container {
-    position: relative;
-    width: 360px;
-    height: 160px;
-    color: black;
+  .courses__card-image {
+    z-index: 1;
   }
+
+  .courses__card:hover .courses__card-image {
+    display: none;
+  }
+
+  .courses__card:hover {
+    background-color: #1656C5;
+  }
+
+
 
 }
 
@@ -243,7 +250,6 @@
   .courses__card-title {
     font-size: 22px;
   }
-
 
   .courses__cards-container {
     gap: 15px;

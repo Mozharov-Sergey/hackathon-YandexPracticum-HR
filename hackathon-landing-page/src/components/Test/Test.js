@@ -3,6 +3,8 @@ import TestStartPage from './TestStartPage';
 import TestInProgress from './TestInProgress';
 
 export default function Test() {
+
+  
   const dialogs = {
     startQuestions: [
       'Привет! Меня зовут Света, я сотрудник hr-команды:)',
