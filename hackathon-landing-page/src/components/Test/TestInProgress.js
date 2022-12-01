@@ -119,6 +119,10 @@ export default function TestInProgress({ messages }) {
     });
   }
 
+  function handleRedirect() {
+
+  }
+
   return (
     <>
       {/* НАПРАВЛЕНИЕ */}
@@ -197,7 +201,7 @@ export default function TestInProgress({ messages }) {
       {isExpressionsChosen && renderBotMessages(messages.goodLuck)}
       {isExpressionsChosen && (
         <div className="test__button-container">
-          <Button text="Посмотреть предложения" width={'250px'}></Button>
+          <Button text="Посмотреть предложения" width={'250px'} onClick={handleRedirect}></Button>
         </div>
       )}
     </>
