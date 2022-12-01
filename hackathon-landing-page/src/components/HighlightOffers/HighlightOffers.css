@@ -84,6 +84,7 @@
 
 .highlight-offers__offer:hover {
   outline: 5px solid #4c7fe1;
+  box-shadow: none;
 }
 
 
