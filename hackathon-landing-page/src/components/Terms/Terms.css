@@ -2,11 +2,10 @@
   width: 100%;
   box-sizing: border-box;
   max-width: 1440px;
-  padding: 63px 0 0 140px;
+  padding: 120px 0 0 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .terms__title {
@@ -15,7 +14,7 @@
   font-weight: 500;
   font-size: 50px;
   line-height: 68px;
-  padding-bottom: 30px;
+  padding-bottom: 22px;
   text-align: center;
   margin: 0;
   align-self: flex-start;
@@ -40,7 +39,7 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 360px;
-  /* height: 485px; */
+  height: 485px;
   background: #ffffff;
   box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.08);
   border-radius: 30px;
@@ -50,16 +49,16 @@
 }
 
 .terms__card-title {
-  font-family: 'YS Text';
+  font-family: 'YS Display';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 115%;
-  margin: 30px 34px 30px;
+  margin: 30px 38px 22px;
 }
 
 .terms__card-image {
-  width: 240px;
+  width: 229px;
   height: 208px;
   object-fit: contain;
   margin: 0 auto 40px;
@@ -71,7 +70,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  margin: 0 38px 30px ;
+  max-width: 289px;
+  margin: 0 auto 30px ;
 }
 
 
@@ -105,32 +105,36 @@
 @media screen and (max-width: 768px) {
   .terms__swiper {
     max-width: 768px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
   }
 }
 
 @media screen and (max-width: 376px) {
   .terms {
     padding-top: 60px;
-    margin-left: 33px;
+    margin-left: 16px;
     padding: 77px 0 0 0;
   }
 
   .terms__title {
-    padding-bottom: 25px;
+    padding-bottom: 0;
     font-size: 28px;
     line-height: 1;
+    text-align: left;
   }
 
   .terms__card {
+    margin: 20px 0;
     height: 360px;
-    max-width: 255;
+    max-width: 255px;
+    box-sizing: border-box;
+    padding: 0 25px;
   }
 
   .terms__card-title {
     font-size: 22px;
     line-height: 125%;
-    margin: 0 0 20px 0;
+    margin: 25px 0 20px 0;
   }
 
   .terms__card-description {
@@ -149,6 +153,7 @@
   .terms__swiper {
     max-width: 375px;
   }
+
 }
 
 .terms.style{

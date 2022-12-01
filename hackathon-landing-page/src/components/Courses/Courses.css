@@ -23,6 +23,7 @@
   line-height: 125%;
   padding-bottom: 50px;
   margin: 0;
+  max-width: 900px;
 }
 
 .courses__card-title {
@@ -70,8 +71,8 @@
   padding: 0 81px 0 0;
   align-self: flex-end;
   z-index: -1;
-  right: -50px;
-  bottom: 20px;
+  right: -47px;
+  bottom: 10px;
 }
 
 .courses__card-button {
@@ -127,7 +128,7 @@
 .courses__cards-container {
   display: grid;
   box-sizing: border-box;
-  gap: 20px;
+  gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-template-rows: auto;
   margin: 0;

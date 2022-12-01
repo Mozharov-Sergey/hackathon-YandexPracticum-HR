@@ -1,7 +1,7 @@
 .todo-list {
   max-width: 1160px;
   display: grid;
-  margin-top: 50px;
+  margin-top: 78px;
   grid-template-columns: minmax(200px, 273px) 111px minmax(261px, 379px) 52px minmax(248px, 3258px);
   align-items: center;
   justify-items: stretch;

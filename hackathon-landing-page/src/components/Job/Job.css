@@ -9,7 +9,7 @@
 
 .job__info {
   max-width: 925px;
-  margin-bottom: 35px;
+  margin-bottom: 46px;
 }
 
 .job__img {
@@ -23,7 +23,7 @@
 }
 
 .job__text {
-  font-family: 'YS Text';
+  font-family: 'YS Display';
   font-style: normal;
   font-weight: 400;
   font-size: calc(20px + 10 * (100vw / 1440));

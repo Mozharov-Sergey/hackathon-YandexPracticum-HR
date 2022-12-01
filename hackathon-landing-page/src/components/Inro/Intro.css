@@ -10,7 +10,6 @@
   margin: 0 auto 60px;
   color: white;
   border-radius: 25px;
-  padding-top: 17px;
 }
 
 .intro__title {
@@ -21,7 +20,7 @@
   font-size: calc(30px + 40 * (100vw / 1440));
   line-height: 100%;
   text-align: center;
-  margin: 80px 14.5vw 15px;
+  margin: 71px 14.5vw 15px;
 }
 
 .intro__subtitle {
@@ -37,7 +36,7 @@
 
 .intro__text-blur {
   max-width: 650px;
-  padding: 15px 55px 14px;
+  padding: 15px 42px 19px;
   backdrop-filter: blur(7.5px);
   border-radius: 25px;
   margin-bottom: 154px;
@@ -76,10 +75,9 @@
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 1440px) {
   .intro__title {
     font-size: 70px;
-    margin: 80px 200px 15px;
   }
 
   .intro__subtitle {
