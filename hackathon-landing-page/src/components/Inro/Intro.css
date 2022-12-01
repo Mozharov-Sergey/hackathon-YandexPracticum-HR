@@ -11,16 +11,6 @@
   color: white;
   border-radius: 25px;
   padding-top: 17px;
-  /* background-size: 1160px 626px; */
-}
-
-@media screen and (max-width: 376px) {
-  .intro {
-    padding-top: 0;
-    background-position-x: 516px;
-    background-size: 932px 691px;
-    margin-bottom: 40px;
-  }
 }
 
 .intro__title {
@@ -34,23 +24,8 @@
   margin: 80px 14.5vw 15px;
 }
 
-@media screen and (min-width: 1439px) {
-  .intro__title {
-    font-size: 70px;
-    margin: 80px 200px 15px;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .intro__title {
-    font-size: 34px;
-    margin: 45px 16px 20px;
-  }
-}
-
-
 .intro__subtitle {
-  max-width: 451px;
+  max-width: 477px;
   font-family: 'YS Display';
   font-style: normal;
   font-weight: 500;
@@ -59,6 +34,16 @@
   text-align: center;
   margin: 0;
 }
+
+.intro__text-blur {
+  max-width: 650px;
+  padding: 15px 55px 14px;
+  backdrop-filter: blur(7.5px);
+  border-radius: 25px;
+  margin-bottom: 154px;
+  background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264), rgba(255, 255, 255, 0.066) 100%);
+}
+
 
 .intro__button {
   box-sizing: border-box;
@@ -91,7 +76,36 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (min-width: 1439px) {
+  .intro__title {
+    font-size: 70px;
+    margin: 80px 200px 15px;
+  }
+
+  .intro__subtitle {
+    font-size: 24px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .intro {
+    padding-top: 0;
+    background-position-x: 516px;
+    background-size: 932px 691px;
+    margin-bottom: 40px;
+  }
+
+  .intro__title {
+    font-size: 34px;
+    margin: 45px 16px 20px;
+  }
+
+  .intro__subtitle {
+    font-size: 16px;
+    margin: 0;
+  }
+
   .intro__button {
     max-width: 343px;
     width: 100%;
@@ -103,35 +117,10 @@
     width: 100%;
     text-align: center;
   }
-}
 
-
-@media screen and (min-width: 1439px) {
-  .intro__subtitle {
-    font-size: 24px;
-    margin: 0;
+  .intro__text-blur {
+    padding: 15px 21px;
+    margin: 0 16px 260px;
   }
-}
 
-@media screen and (max-width: 376px) {
-  .intro__subtitle {
-    font-size: 16px;
-    margin: 0;
-  }
 }
-
-.intro__text-blur {
-  max-width: 650px;
-  padding: 15px 55px 14px;
-  backdrop-filter: blur(7.5px);
-  border-radius: 25px;
-  margin-bottom: 154px;
-  background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264), rgba(255, 255, 255, 0.066) 100%);
-}
-
-.intro__text-blur {
-  max-width: 650px;
-  padding: 15px 21px;
-  margin: 0 16px 260px;
-}
-
