@@ -200,6 +200,14 @@
     margin: 25px 16px 0;
     width: 100%;
   }
+
+  .courses__card-container {
+    position: relative;
+    width: 360px;
+    height: 160px;
+    color: black;
+  }
+
 }
 
 @media screen and (max-width: 376px) {
@@ -235,6 +243,7 @@
   .courses__card-title {
     font-size: 22px;
   }
+
 
   .courses__cards-container {
     gap: 15px;
