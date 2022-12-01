@@ -265,4 +265,7 @@
     line-height: 33px;
     max-width: 200px;
   }
+  .highlight-offers__select-wrapper::before {
+    display: none;
+  }
 }
