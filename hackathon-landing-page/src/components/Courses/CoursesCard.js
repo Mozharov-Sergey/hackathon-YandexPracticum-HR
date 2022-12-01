@@ -4,14 +4,6 @@ import arrow from '../../images/coursesIcons/arrow_back.svg'
 export default function CoursesCard({ item }) {
   const [isHover, setIsHover] = useState(false);
 
-  function handleMouseEnter() {
-    setIsHover(true);
-  }
-
-  function handleMouseLeave() {
-    setIsHover(false);
-  }
-
   return (
     <div className="courses__card-container">
       <div className="courses__card courses__card__front">
