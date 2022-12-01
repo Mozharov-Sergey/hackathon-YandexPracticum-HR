@@ -61,3 +61,20 @@
   margin: 0;
 }
 
+@media screen and (max-width: 375px) {
+  .popup__content {
+    max-width: 343px;
+    padding: 30px 31px;
+  }
+
+  .popup__close {
+    width: 24px;
+    height: 24px;
+  }
+
+  .popup__title {
+    text-align: center;
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
