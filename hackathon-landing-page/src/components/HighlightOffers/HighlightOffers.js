@@ -64,7 +64,7 @@ export default function HighlightOffers({handleClickRoleMobile}) {
           }
         })}
       </div>
-      <Button text='Показать еще' handleClick={handleClickShowVacanciewButton}/>
+      <Button text='Показать еще' padding='15px 40px' handleClick={handleClickShowVacanciewButton}/>
     </section>
   );
 }
