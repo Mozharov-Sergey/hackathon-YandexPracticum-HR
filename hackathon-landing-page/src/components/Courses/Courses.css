@@ -221,6 +221,13 @@
   .courses__card:hover .courses__card-substring {
     color: white;
   }
+  .courses__card-image {
+    width: 125px;
+    height: 110px;
+    padding: 0px 40px 5px 0;
+    bottom: 5px;
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 376px) {
