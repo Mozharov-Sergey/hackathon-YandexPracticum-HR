@@ -6,7 +6,6 @@
 
 @import url(components/Header/Header.css);
 
-
 @import url(components/Inro/Intro.css);
 
 @import url(components/Instructions/Instructions.css);
@@ -19,6 +18,5 @@
 @import url(components/Terms/Terms.css);
 
 @import url(components/HighlightOffers/HighlightOffers.css);
-
 
 @import url(components/PopupRole/PopupRole.css);
