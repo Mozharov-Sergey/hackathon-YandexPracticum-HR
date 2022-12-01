@@ -75,7 +75,7 @@ const Reviews = () => {
   return (
     <section className='reviews section-menu' id='reviews'>
       <h2 className='reviews__title'>Истории ребят из&nbsp;нашей команды</h2>
-      <p className='reviews__subtitle'>Они стали крутыми профессионалами и изменили жизни десятков людей. У&nbsp;вас тоже получится!</p>
+      <p className='reviews__subtitle'>Они стали крутыми профессионалами и изменили жизни десятков людей. У&nbsp;вас&nbsp;тоже&nbsp;получится!</p>
       <div className='reviews__list'>
       <Swiper
         breakpoints={{
