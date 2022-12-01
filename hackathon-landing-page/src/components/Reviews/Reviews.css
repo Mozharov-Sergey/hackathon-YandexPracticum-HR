@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 483px) {
   .reviews__swiper {
-    max-width: 375px;
+    width: 350px;
   }
 
   .reviews {
