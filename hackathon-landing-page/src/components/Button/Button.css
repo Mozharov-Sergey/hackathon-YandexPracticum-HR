@@ -19,6 +19,7 @@
   justify-self: self-start;
   width: auto;
   padding: 11px 20px;
+  transition: background .3s linear;
 }
 
 .button:hover {

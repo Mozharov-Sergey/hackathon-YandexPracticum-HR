@@ -38,6 +38,7 @@
   text-decoration: none;
   padding: 0 1.74vw;
   color: #000000;
+  transition: color .3s linear;
 }
 
 .header__link:hover {

@@ -134,6 +134,7 @@
   line-height: 24px;
   color: #1a1b22;
   text-decoration: none;
+  transition: color .3s linear;
 }
 
 .footer__menu-link:hover {
