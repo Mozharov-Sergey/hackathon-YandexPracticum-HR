@@ -107,7 +107,7 @@
   .header__navigation_active {
     display: block;
     background-color:white;
-    top: 97px;
+    top: 62px;
     right: 0;
     transition: all 0.3s ease 0s;
     position: fixed;

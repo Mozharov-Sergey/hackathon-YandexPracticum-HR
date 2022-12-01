@@ -64,7 +64,7 @@ export default function Terms({handleClick, setSelectedRole}) {
               spaceBetween:15,
             },
             // when window width is >= 768px
-            768: {
+            872: {
               slidesPerView: 2.5,
               spaceBetween:15,
             },

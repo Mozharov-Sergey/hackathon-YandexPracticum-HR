@@ -58,6 +58,12 @@
   -webkit-box-orient: vertical;
 }
 
+@media screen and (max-width: 1366px) {
+  .reviews__items {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .reviews__items {
     width: 255px;
