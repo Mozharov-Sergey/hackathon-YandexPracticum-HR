@@ -157,6 +157,11 @@
 .highlight-offers__search-bar-select:hover {
   background: #e6e7e8;
   border: none;
+  outline: none;
+  background: #FFFFFF;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 14px;
+  
 }
 
 .highlight-offers__search-bar-select:last-child {
