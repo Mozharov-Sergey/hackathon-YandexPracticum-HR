@@ -20,29 +20,34 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
         ></button>
       </div>
       <nav className="highlight-offers__search-bar">
-        <select className="highlight-offers__search-bar-select" defaultValue="mentor">
-          <option className="highlight-offers__search-bar-select-option" value="mentor">
-            Наставник
-          </option>
-          <option className="highlight-offers__search-bar-select-option" value="reviewer">
-            Ревьюер
-          </option>
+        <div className="highlight-offers__select-wrapper">
+          <select className="highlight-offers__search-bar-select" defaultValue="mentor">
+            <option className="highlight-offers__search-bar-select-option" value="mentor">
+              Наставник
+            </option>
+            <option className="highlight-offers__search-bar-select-option" value="reviewer">
+              Ревьюер
+            </option>
         </select>
+        </div>
+        <div className="highlight-offers__select-wrapper">
+          <select className="highlight-offers__search-bar-select" defaultValue="programming">
+            <option className="highlight-offers__search-bar-select-option" value="programming">
+              Программирование
+            </option>
+            <option className="highlight-offers__search-bar-select-option" value="design">
+              Дизайн
+            </option>
+            <option className="highlight-offers__search-bar-select-option" value="management">
+              Менеджмент
+            </option>
+            <option className="highlight-offers__search-bar-select-option" value="design">
+              Маркетинг
+            </option>
+          </select>
+        </div>
 
-        <select className="highlight-offers__search-bar-select" defaultValue="programming">
-          <option className="highlight-offers__search-bar-select-option" value="programming">
-            Программирование
-          </option>
-          <option className="highlight-offers__search-bar-select-option" value="design">
-            Дизайн
-          </option>
-          <option className="highlight-offers__search-bar-select-option" value="management">
-            Менеджмент
-          </option>
-          <option className="highlight-offers__search-bar-select-option" value="design">
-            Маркетинг
-          </option>
-        </select>
+        
       </nav>
       <div className="highlight-offers__offers-container">
         {offersData.map((item, index) => {
