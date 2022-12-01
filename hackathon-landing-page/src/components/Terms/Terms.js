@@ -59,8 +59,8 @@ export default function Terms({handleClick, setSelectedRole}) {
         <Swiper
           breakpoints={{
             // when window width is >= 640px
-            375: {
-              slidesPerView: 1.5,
+            400: {
+              slidesPerView: 1.2,
               spaceBetween:15,
             },
             // when window width is >= 768px
@@ -70,7 +70,7 @@ export default function Terms({handleClick, setSelectedRole}) {
             },
             1160: {
               slidesPerView: 3.5,
-              spaceBetween:15,
+              spaceBetween: 40,
             },
           }}
 

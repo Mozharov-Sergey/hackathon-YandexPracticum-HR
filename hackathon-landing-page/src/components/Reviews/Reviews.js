@@ -81,7 +81,7 @@ const Reviews = () => {
         breakpoints={{
           // when window width is >= 640px
           375: {
-            slidesPerView: 1.5,
+            slidesPerView: 1.4,
             spaceBetween:15,
           },
           // when window width is >= 768px
