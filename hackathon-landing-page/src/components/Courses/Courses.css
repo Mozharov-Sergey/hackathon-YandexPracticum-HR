@@ -1,0 +1,231 @@
+.courses {
+  max-width: 1160px;
+  width: 100%;
+  padding: 120px 0 0;
+  margin: 0;
+}
+
+
+.courses__title {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 68px;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.courses__main-text {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 125%;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.courses__card-title {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 125%;
+  margin: 0;
+  padding: 0;
+}
+
+.courses__card-title_summary {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 125%;
+}
+
+.courses__card-substring {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  margin: 0;
+  padding: 0;
+}
+
+.courses__card-substring_hover {
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.courses__card-image {
+  position: absolute;
+  margin: 0;
+  padding: 0 81px 0 0;
+  align-self: flex-end;
+  z-index: -1;
+  right: -50px;
+  bottom: 20px;
+}
+
+.courses__card-button {
+  width: 148px;
+  height: 60px;
+  border: none;
+  background: #373737;
+  backdrop-filter: blur(6px);
+  border-radius: 120px;
+  align-self: flex-end;
+  margin-right: 30px;
+  padding: 0;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 60px;
+  color: white;
+}
+
+.courses__button {
+  display: none;
+}
+
+.courses__card {
+  position: relative;
+  width: 360px;
+  height: 228px;
+  border-radius: 40px;
+  box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.courses__card:hover {
+  padding: 25px;
+  background-color: #005CFF;
+}
+
+.courses__card:hover:last-child {
+  padding: 30px;
+  background-color: white;
+}
+.courses__card_summary {
+  border: 1px solid black;
+}
+
+.courses__cards-container {
+  display: grid;
+  box-sizing: border-box;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-rows: auto;
+  margin: 0;
+  padding: 0;
+  max-width: 1160px;
+  justify-items: center;
+}
+
+
+@media screen and (max-width: 376px) {
+  .courses__cards-container {
+    gap: 15px;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .courses__card {
+    padding: 20px 40px 20px 25px;
+    width: 343px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .courses__card:last-of-type {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .courses__button {
+    box-sizing: border-box;
+    display: block;
+    margin: 25px 16px 0;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .courses__card-image {
+    width: 125px;
+    height: 110px;
+    padding: 0px 88px 0 0;
+    bottom: 5px;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .courses__card-substring {
+    font-size: 18px;
+    line-height: 1;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .courses__card-title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1189px) {
+  .courses__main-text {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .courses__main-text {
+    font-size: 21px;
+    padding-bottom: 27px;
+    line-height: 134%;
+  }
+}
+
+
+@media screen and (max-width: 1189px) {
+  .courses__title {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .courses__title {
+    font-size: 28px;
+    line-height: 33px;
+    padding-bottom: 15px;
+  }
+}
+
+
+
+@media screen and (max-width: 376px) {
+  .courses {
+    padding-top: 82px;
+  }
+}

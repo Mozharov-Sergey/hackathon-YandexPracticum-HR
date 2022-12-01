@@ -46,19 +46,8 @@
 @import url(blocks/test/__button-container/test__button-container.css);
 @import url(blocks/test/_in-progress/test_in-progress.css);
 
-@import url(blocks/courses/___cards-container/courses___cards-container.css);
-@import url(blocks/courses/__card/courses__card.css);
-@import url(blocks/courses/__main-text/courses__main-text.css);
-@import url(blocks/courses/__title/courses__titile.css);
-@import url(blocks/courses/__card-image/courses__card-image.css);
-@import url(blocks/courses/__card-title/courses__card-title.css);
-@import url(blocks/courses/__card-substring/courses__card-substring.css);
-@import url(blocks/courses/__card-title/_summary/courses__card-title_summary.css);
-@import url(blocks/courses/__card/_summary/courses__card_summary.css);
-@import url(blocks/courses/__card-button/courses__card-button.css);
-@import url(blocks/courses/__card-substring/_hover/courses__card-substring_hover.css);
-@import url(blocks/courses/courses.css);
-@import url(blocks/courses/__button/courses__button.css);
+@import url(components/Courses/Courses.css);
+
 
 @import url(blocks/terms/terms.css);
 @import url(blocks/terms/__card-description/terms__card-description.css);

@@ -1,11 +1,11 @@
-import plug from '../images/material-symbols_image-outline.png';
-import programming from '../images/coursesIcons/programming.png';
-import design from '../images/coursesIcons/design.png';
-import analitics from '../images/coursesIcons/analitics.png';
-import management from '../images/coursesIcons/management.png';
-import marketing from '../images/coursesIcons/marketing.png';
-import CoursesCard from './CoursesCard';
-import Button from './Button/Button';
+import plug from '../../images/material-symbols_image-outline.png';
+import programming from '../../images/coursesIcons/programming.png';
+import design from '../../images/coursesIcons/design.png';
+import analitics from '../../images/coursesIcons/analitics.png';
+import management from '../../images/coursesIcons/management.png';
+import marketing from '../../images/coursesIcons/marketing.png';
+import CoursesCard from '../CoursesCard';
+import Button from '../Button/Button';
 
 const cardsData = [
   {

@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Instructions from './components/Instructions';
 import Job from './components/Job/Job';
 import Reviews from './components/Reviews/Reviews';
-import Courses from './components/Courses';
+import Courses from './components/Courses/Courses';
 import Terms from './components/Terms';
 import HighlightOffers from './components/HighlightOffers';
 import Test from './components/Test'
