@@ -18,28 +18,28 @@ export default function Terms({handleClick, setSelectedRole}) {
   const termsCardsData = [
     {
       title: 'Получать от 35 до 55 тысяч ₽ в месяц',
-      description: 'И работать удаленно. Около 2-3 часов в деню. Графика выбираете сами.',
+      description: 'И работать удалённо. Около 2\u00A0-3 часов в день, график свободный, выбирайте подходящий именно вам',
       image: riseUp,
     },
     {
       title: 'Учить и учиться новому',
-      description: 'Вы узнаете, как давать обратную связь, выступать на публике и мотивировать людей.',
+      description: 'Вы узнаете, как давать обратную связь, выступать на публике и\u00A0мотивировать людей.',
       image: teach,
     },
     {
-      title: 'Менять жизнь людей к лучшему',
-      description: 'Тысячи наших студентов нуждаются в ваших знаниях и опыте — не бойтесь ими делиться.',
+      title: 'Менять жизни людей к лучшему',
+      description: 'Тысячи наших студентов нуждаются в\u00A0ваших знаниях и\u00A0опыте — не бойтесь ими делиться.',
       image: changeLife,
     },
     {
       title: 'Развиваться внутри роли',
-      description: 'А со временем стать старшим наставником или сеньор-ревьюером.',
+      description: 'Получайте опыт и\u00A0со временем становитесь старшим наставником или\u00A0сеньор-ревьюером',
       image: grow,
     },
     {
       title: 'Прокачать личный бренд',
       description:
-        'Публикуйте статьи в нашем блоге и выступайте на мероприятиях, чтобы как можно больше людей узнали о вас.',
+        'Публикуйте статьи в нашем блоге и\u00A0выступайте на\u00A0мероприятиях, чтобы вас\u00A0заметили',
       image: pump,
     },
     {
@@ -60,7 +60,7 @@ export default function Terms({handleClick, setSelectedRole}) {
           breakpoints={{
             // when window width is >= 640px
             375: {
-              slidesPerView: 1.5,
+              slidesPerView: 1.4,
               spaceBetween:15,
             },
             // when window width is >= 768px
@@ -69,8 +69,8 @@ export default function Terms({handleClick, setSelectedRole}) {
               spaceBetween:15,
             },
             1160: {
-              slidesPerView: 3.5,
-              spaceBetween:15,
+              slidesPerView: 3.4,
+              spaceBetween: 38,
             },
           }}
 
