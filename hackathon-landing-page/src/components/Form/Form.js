@@ -1,10 +1,17 @@
+import { useState } from "react";
 import Button from "../Button/Button";
 import "./Form.css";
 
 const Form = ({onSubmit, selectedRole, setSelectedRole}) => {  
 
-  const changeSelect = (newSelect) => {
+  const [course, setCourse] =useState('course')
+
+  const changeSelectRole = (newSelect) => {
     setSelectedRole(newSelect);
+  };
+
+  const changeSelectCourse = (newSelect) => {
+    setCourse(newSelect);
   };
 
   return (
@@ -23,9 +30,9 @@ const Form = ({onSubmit, selectedRole, setSelectedRole}) => {
               <input type='tel' className='form__input' placeholder='+7 (000) 000-00-00' id='phone'></input>              
             </div>
             <div className="form__group">
-              <div className="select-wrapper">
-                <select id="sel" className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
-                <option className="form__option" disabled value='11'>Направление</option>
+              <div className="form__select-wrapper">
+                <select id="sel" className='form__select' value={course} onChange={(event) => changeSelectCourse(event.target.value)}>
+                <option className="form__option" disabled value='course'>Направление</option>
                 <option className="form__option" value='1'>Программирование</option>
                 <option className="form__option" value='2'>Анализ данных</option>
                 <option className="form__option" value='3'>Менеджемент</option>
@@ -33,8 +40,8 @@ const Form = ({onSubmit, selectedRole, setSelectedRole}) => {
                 <option className="form__option" value='5'>Дизайн</option>
                 </select> 
               </div>
-              <div className="select-wrapper">
-                <select className='form__select' value={selectedRole} onChange={(event) => changeSelect(event.target.value)}>
+              <div className="form__select-wrapper">
+                <select className='form__select' value={selectedRole} onChange={(event) => changeSelectRole(event.target.value)}>
                 <option className="form__option" value='notSelected' disabled>Роль в команде</option>
                 <option className="form__option" value='mentor'>Наставник</option>
                 <option className="form__option" value='reviewer'>Ревьюер</option>

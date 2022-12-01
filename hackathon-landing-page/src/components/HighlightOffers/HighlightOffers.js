@@ -1,13 +1,24 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Button from '../Button/Button';
 export default function HighlightOffers({ handleClickRoleMobile }) {
   const offersData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // Потом тут будут данные карточек с вакансиями
 
   const [isVacanciesShow, setIsVacanciesShow] = useState(false);
+  const [buttonText, setButtonText] = React.useState('Показать еще')
 
   function handleClickShowVacanciewButton() {
     setIsVacanciesShow(!isVacanciesShow);
   }
+
+  React.useEffect(() => {
+    if(isVacanciesShow) {
+      setButtonText("Свернуть");
+    }
+    else {
+      setButtonText("Показать еще");
+    }
+
+  }, [isVacanciesShow])
 
   return (
     <section className="highlight-offers section-menu" id="offers">
@@ -20,29 +31,34 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
         ></button>
       </div>
       <nav className="highlight-offers__search-bar">
-        <select className="highlight-offers__search-bar-select" defaultValue="mentor">
-          <option className="highlight-offers__search-bar-select-option" value="mentor">
-            Наставник
-          </option>
-          <option className="highlight-offers__search-bar-select-option" value="reviewer">
-            Ревьюер
-          </option>
+        <div className="highlight-offers__select-wrapper">
+          <select className="highlight-offers__search-bar-select" defaultValue="mentor">
+            <option className="highlight-offers__search-bar-select-option" value="mentor">
+              Наставник
+            </option>
+            <option className="highlight-offers__search-bar-select-option" value="reviewer">
+              Ревьюер
+            </option>
         </select>
+        </div>
+        <div className="highlight-offers__select-wrapper">
+          <select className="highlight-offers__search-bar-select" defaultValue="programming">
+            <option className="highlight-offers__search-bar-select-option" value="programming">
+              Программирование
+            </option>
+            <option className="highlight-offers__search-bar-select-option" value="design">
+              Дизайн
+            </option>
+            <option className="highlight-offers__search-bar-select-option" value="management">
+              Менеджмент
+            </option>
+            <option className="highlight-offers__search-bar-select-option" value="design">
+              Маркетинг
+            </option>
+          </select>
+        </div>
 
-        <select className="highlight-offers__search-bar-select" defaultValue="programming">
-          <option className="highlight-offers__search-bar-select-option" value="programming">
-            Программирование
-          </option>
-          <option className="highlight-offers__search-bar-select-option" value="design">
-            Дизайн
-          </option>
-          <option className="highlight-offers__search-bar-select-option" value="management">
-            Менеджмент
-          </option>
-          <option className="highlight-offers__search-bar-select-option" value="design">
-            Маркетинг
-          </option>
-        </select>
+        
       </nav>
       <div className="highlight-offers__offers-container">
         {offersData.map((item, index) => {
@@ -68,7 +84,7 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
           }
         })}
       </div>
-      <Button text="Показать еще" padding="15px 40px" handleClick={handleClickShowVacanciewButton} />
+      <Button text={buttonText} padding="15px 40px" handleClick={handleClickShowVacanciewButton} />
     </section>
   );
 }
