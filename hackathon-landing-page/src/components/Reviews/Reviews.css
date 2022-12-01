@@ -67,7 +67,11 @@
   }
 
   .reviews {
-    padding: 80px 0px 80px 16px;
+    padding: 80px 0px 27px 16px;
+  }
+
+  .reviews__list {
+    margin: 0;
   }
 
   .reviews__title {
@@ -78,6 +82,7 @@
 
   .reviews__subtitle {
     max-width: 306px;
+    margin-bottom: 0;
   }
 }
 

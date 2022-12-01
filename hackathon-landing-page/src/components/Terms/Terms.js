@@ -17,7 +17,7 @@ export default function Terms({handleClick, setSelectedRole}) {
 
   const termsCardsData = [
     {
-      title: 'Получать от 35 до 55 тысяч ₽ в месяц',
+      title: 'Получать от 35 до\u00A055 тысяч ₽ в месяц',
       description: 'И работать удалённо. Около 2\u00A0-3 часов в день, график свободный, выбирайте подходящий именно вам',
       image: riseUp,
     },

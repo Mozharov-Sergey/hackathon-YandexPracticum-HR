@@ -116,7 +116,7 @@
 @media screen and (max-width: 376px) {
   .terms {
     padding-top: 60px;
-    margin-left: 16px;
+    margin-left: 20px;
     padding: 77px 0 0 0;
   }
 
@@ -128,11 +128,11 @@
   }
 
   .terms__card {
-    margin: 20px 0;
+    margin: 26px 0;
     height: 360px;
     max-width: 255px;
     box-sizing: border-box;
-    padding: 0 25px;
+    padding: 0 21px;
   }
 
   .terms__card-title {

@@ -51,7 +51,7 @@ export default function HighlightOffers({ handleClickRoleMobile }) {
               <div className="highlight-offers__offer" key={index}>
                 <h4 className="highlight-offers__offer-position">Наставник на курс</h4>
                 <h3 className="highlight-offers__offer-name">Мидл фронтенд-разработчик</h3>
-                <p className="highlight-offers__offer-conditions">Ведение группы, ~ 35 тыс руб/мес</p>
+                <p className="highlight-offers__offer-conditions">Ведение группы, ~&nbsp;35 тыс руб/мес</p>
               </div>
             );
           } else {
