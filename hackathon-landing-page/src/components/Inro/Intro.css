@@ -94,11 +94,11 @@
   }
 }
 
-
-@media screen and (max-width: 586px) {
-  .intro__text-blur {
-    margin-left: 10px;
-       background-size: 932px 691px;
+@media screen and (max-width: 376px) {
+  .intro {
+    padding-top: 0;
+    background-position-x: 516px;
+    background-size: 932px 691px;
     margin-bottom: 40px;
   }
 
