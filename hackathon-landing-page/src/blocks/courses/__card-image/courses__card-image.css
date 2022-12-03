@@ -1,9 +1,0 @@
-.courses__card-image {
-  position: absolute;
-  margin: 0;
-  padding: 0 81px 0 0;
-  align-self: flex-end;
-  z-index: -1;
-  right: -50px;
-  bottom: 20px;
-}

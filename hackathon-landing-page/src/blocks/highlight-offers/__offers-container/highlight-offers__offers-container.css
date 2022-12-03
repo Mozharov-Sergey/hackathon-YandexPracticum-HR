@@ -1,8 +1,0 @@
-.highlight-offers__offers-container {
-  padding: 52px 0 0 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  max-width: 1160px;
-  margin-bottom: 50px;
-}
