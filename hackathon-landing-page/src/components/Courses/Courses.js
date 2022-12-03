@@ -1,4 +1,3 @@
-import plug from '../../images/material-symbols_image-outline.png';
 import programming from '../../images/coursesIcons/programming.png';
 import design from '../../images/coursesIcons/design.png';
 import analitics from '../../images/coursesIcons/analitics.png';
