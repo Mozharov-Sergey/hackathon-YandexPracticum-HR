@@ -1,6 +1,6 @@
 ### Проект Хаккатона Yandex.Practicum 26.11.2022 - 01.12.2022
 
-##GH-pages
+## GH-pages
 https://mozharov-sergey.github.io/hackathon-YandexPracticum-HR/
 
 ## Цели
